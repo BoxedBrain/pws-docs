@@ -1,0 +1,68 @@
+site_name: Password Safe Documentation
+site_author: MATESO GmbH
+extra:
+  generator: true
+  social:
+  - icon: fontawesome/brands/linkedin
+    name: MATESO on LinkedIn
+    link: https://www.linkedin.com/company/mateso-gmbh/
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/matesogmbh
+  version:
+    provider: mike
+    
+theme:
+  logo: assets/logo.png
+  language: en
+  name: material
+  icon: 
+    repo: fontawesome/brands/github  
+  features:
+  - navigation.indexes
+  - navigation.instant
+  - navigation.tracking
+  - navigation.tabs
+  - navigation.instant
+  - navigation.top
+  - search.highlight
+  - search.suggest
+  - header.autohide
+  - toc.autohide
+  - content.tabs.link
+
+  palette: 
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+  - search:
+      prebuild_index: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - footnotes
+  - tables
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - toc:
+      permalink: ⚓︎
+copyright: Maintained with ❤️ by MATESO GmbH and contributors
+
+
+#nav:
+#  - Examples:
+#    - Examples/index.md
+#    - Authentication:
+#      - Examples/Authentication/index.md
+#      - Page 1: Examples/Authentication/Logout.md

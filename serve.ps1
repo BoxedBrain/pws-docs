@@ -1,0 +1,1 @@
+docker run --rm -it -p 8080:8000 -v ${PWD}:/docs squidfunk/mkdocs-material

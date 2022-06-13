@@ -13,6 +13,6 @@ services:
   pws-documentation:
     image: squidfunk/mkdocs-material:latest
     ports:
-      - '80:8000'
+      - '8000:8000'
     volumes:
       - ./:/docs

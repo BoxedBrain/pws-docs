@@ -2,7 +2,7 @@ name: Build and deploy to gh-pages
 
 on: 
   push:
-    branches: [master]
+    branches: [master, main]
   release:
     types:
       - released

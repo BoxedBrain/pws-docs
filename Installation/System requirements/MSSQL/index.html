@@ -10,19 +10,19 @@
         <meta name="author" content="MATESO GmbH">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/favicon.svg">
       <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.4">
     
     
       
-        <title>System requirements - Password Safe Documentation</title>
+        <title>MSSQL Server - Password Safe Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.4a0965b7.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4a0965b7.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
         
       
       
@@ -38,7 +38,9 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -54,7 +56,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     
@@ -66,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#system-requirements" class="md-skip">
+        <a href="#mssql-server" class="md-skip">
           Skip to content
         </a>
       
@@ -75,20 +77,14 @@
       
     </div>
     
-      <div data-md-component="outdated" hidden>
-        <aside class="md-banner md-banner--warning">
-          
-        </aside>
-      </div>
-    
     
       
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Password Safe Documentation" class="md-header__button md-logo" aria-label="Password Safe Documentation" data-md-component="logo">
+    <a href="../../.." title="Password Safe Documentation" class="md-header__button md-logo" aria-label="Password Safe Documentation" data-md-component="logo">
       
-  <img src="../../assets/logo.png" alt="logo">
+  <img src="../../../assets/logo_white.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -104,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              System requirements
+              MSSQL Server
             
           </span>
         </div>
@@ -115,19 +111,19 @@
         
           
           
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
           
             <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
             </label>
           
         
           
           
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="pink"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
           
             <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
             </label>
           
         
@@ -191,7 +187,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
+    <a href="../../.." class="md-tabs__link">
       Password Safe documentation
     </a>
   </li>
@@ -208,7 +204,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../" class="md-tabs__link md-tabs__link--active">
+      <a href="../../" class="md-tabs__link md-tabs__link--active">
         Installation
       </a>
     </li>
@@ -224,7 +220,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../Security/" class="md-tabs__link">
+      <a href="../../../Security/" class="md-tabs__link">
         Security
       </a>
     </li>
@@ -252,9 +248,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Password Safe Documentation" class="md-nav__button md-logo" aria-label="Password Safe Documentation" data-md-component="logo">
+    <a href="../../.." title="Password Safe Documentation" class="md-nav__button md-logo" aria-label="Password Safe Documentation" data-md-component="logo">
       
-  <img src="../../assets/logo.png" alt="logo">
+  <img src="../../../assets/logo_white.png" alt="logo">
 
     </a>
     Password Safe Documentation
@@ -270,7 +266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         Password Safe documentation
       </a>
     </li>
@@ -310,7 +306,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../">Installation</a>
+          <a href="../../">Installation</a>
           
             <label for="__nav_2">
               <span class="md-nav__icon md-icon"></span>
@@ -331,95 +327,12 @@
               
   
   
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          System requirements
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        System requirements
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#application-server" class="md-nav__link">
-    Application Server
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#database-server" class="md-nav__link">
-    Database Server
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#client" class="md-nav__link">
-    Client
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#browser" class="md-nav__link">
-    Browser
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mobile-app" class="md-nav__link">
-    Mobile App
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
   
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
       
       
       
@@ -430,13 +343,13 @@
         
       
       
-        <label class="md-nav__link" for="__nav_2_3">
+        <label class="md-nav__link" for="__nav_2_2">
           Browser extention
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Browser extention" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_3">
+        <label class="md-nav__title" for="__nav_2_2">
           <span class="md-nav__icon md-icon"></span>
           Browser extention
         </label>
@@ -448,7 +361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Browser%20extention/chrome/" class="md-nav__link">
+      <a href="../../Browser%20extention/chrome/" class="md-nav__link">
         Google Chrome
       </a>
     </li>
@@ -462,7 +375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Browser%20extention/firefox/" class="md-nav__link">
+      <a href="../../Browser%20extention/firefox/" class="md-nav__link">
         Firefox
       </a>
     </li>
@@ -486,7 +399,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
       
       
       
@@ -500,17 +413,138 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../Server/">Server</a>
+          <a href="../../Server/">Server</a>
           
         </div>
       
       <nav class="md-nav" aria-label="Server" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_4">
+        <label class="md-nav__title" for="__nav_2_3">
           <span class="md-nav__icon md-icon"></span>
           Server
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" checked>
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          System requirements
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="System requirements" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          System requirements
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          MSSQL Server
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        MSSQL Server
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#server-configuration" class="md-nav__link">
+    Server configuration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#database-configuration" class="md-nav__link">
+    Database configuration
+  </a>
+  
+    <nav class="md-nav" aria-label="Database configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#permissions" class="md-nav__link">
+    Permissions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firewall-ports" class="md-nav__link">
+    Firewall / Ports
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
             
           
         </ul>
@@ -557,7 +591,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../Security/">Security</a>
+          <a href="../../../Security/">Security</a>
           
             <label for="__nav_3">
               <span class="md-nav__icon md-icon"></span>
@@ -580,7 +614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Security/Encryption/" class="md-nav__link">
+      <a href="../../../Security/Encryption/" class="md-nav__link">
         Encryption
       </a>
     </li>
@@ -594,7 +628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Security/Made%20in%20Germany/" class="md-nav__link">
+      <a href="../../../Security/Made%20in%20Germany/" class="md-nav__link">
         IT security made in Germany
       </a>
     </li>
@@ -608,7 +642,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Security/Pentest/" class="md-nav__link">
+      <a href="../../../Security/Pentest/" class="md-nav__link">
         Penetration tests
       </a>
     </li>
@@ -649,36 +683,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#application-server" class="md-nav__link">
-    Application Server
+  <a href="#server-configuration" class="md-nav__link">
+    Server configuration
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#database-server" class="md-nav__link">
-    Database Server
+  <a href="#database-configuration" class="md-nav__link">
+    Database configuration
   </a>
+  
+    <nav class="md-nav" aria-label="Database configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#permissions" class="md-nav__link">
+    Permissions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#client" class="md-nav__link">
-    Client
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#browser" class="md-nav__link">
-    Browser
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mobile-app" class="md-nav__link">
-    Mobile App
+  <a href="#firewall-ports" class="md-nav__link">
+    Firewall / Ports
   </a>
   
 </li>
@@ -697,16 +730,51 @@
                 
 
 
-<h1 id="system-requirements">System requirements<a class="headerlink" href="#system-requirements" title="Permanent link">⚓︎</a></h1>
-<h2 id="application-server">Application Server<a class="headerlink" href="#application-server" title="Permanent link">⚓︎</a></h2>
-<p>as</p>
-<h2 id="database-server">Database Server<a class="headerlink" href="#database-server" title="Permanent link">⚓︎</a></h2>
-<p>asd</p>
-<h2 id="client">Client<a class="headerlink" href="#client" title="Permanent link">⚓︎</a></h2>
-<p>asd</p>
-<h2 id="browser">Browser<a class="headerlink" href="#browser" title="Permanent link">⚓︎</a></h2>
-<p>asd</p>
-<h2 id="mobile-app">Mobile App<a class="headerlink" href="#mobile-app" title="Permanent link">⚓︎</a></h2>
+<h1 id="mssql-server">MSSQL Server<a class="headerlink" href="#mssql-server" title="Permanent link">⚓︎</a></h1>
+<h2 id="server-configuration">Server configuration<a class="headerlink" href="#server-configuration" title="Permanent link">⚓︎</a></h2>
+<p>We recommend that you install the database on a separate MSSQL database cluster in order to prevent system failures. It should also be mirrored to another data centre at a different location.</p>
+<p>We recommend the following specs to ensure smooth operation:</p>
+<ul>
+<li>Min. Windows Server 2012 R2</li>
+<li>At least 4 x CPU</li>
+<li>Min. 16 GB RAM</li>
+<li>Min. 100 GB hard disk space</li>
+<li>Installed and licensed Microsoft MSSQL Server 2012 or later (starting from Express)</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>comparison of the different MSSQL server editions can be found under the following link:
+SQL server editions
+The capacity limits for the specific editions are also listed here.</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Azure SQL service</p>
+<p>Unfortunately the Azure SQL service cannot currently be supported.
+Use this service at your own risk!</p>
+</div>
+<h2 id="database-configuration">Database configuration<a class="headerlink" href="#database-configuration" title="Permanent link">⚓︎</a></h2>
+<p>At least two databases are created during installation:</p>
+<ul>
+<li>The configuration database, which contains the settings for the application server</li>
+<li>The vault database, which holds all information about users and secrets</li>
+</ul>
+<p>An MSSQL database is required for each Password Safe vault. Multiple databases can be run on one SQL instance. As Password Safe V8 enables the clean separation of all data via the authorization concept, a single MSSQL database is sufficient for most applications.</p>
+<div class="admonition danger">
+<p class="admonition-title">Be aware</p>
+<p>The databases must have the collation <code>Latin1_General_CI_AS</code>. If the SQL Server uses a different collation, Password Safe cannot create the database correctly. In this case, the database must be created manually on the server with the correct collation in order to subsequently link it to the AdminClient.</p>
+</div>
+<h3 id="permissions">Permissions<a class="headerlink" href="#permissions" title="Permanent link">⚓︎</a></h3>
+<p>A dedicated SQL user should be used for the Password Safe database conncection. The server admin (sa) may be used but is not recommended or necessary. The user requires the following rights:</p>
+<ul>
+<li>dbCreator: If the databases are created via the AdminClient, the user must have the dbCreator right.</li>
+<li>dbOwner: If the databases are created manually on the MSSQL server and are only managed by the AdminClient, dbOwner rights are sufficient.</li>
+</ul>
+<p>In any case, the user must have read rights to the master database.</p>
+<h2 id="firewall-ports">Firewall / Ports<a class="headerlink" href="#firewall-ports" title="Permanent link">⚓︎</a></h2>
+<p>The application server requires the following port to be enabled:</p>
+<ul>
+<li>Port 1433 TCP for communication with the application server (incoming)</li>
+</ul>
 
               
             </article>
@@ -729,7 +797,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Installation" rel="prev">
+        <a href="../../Server/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Index" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -738,20 +806,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Installation
+              Index
             </div>
           </div>
         </a>
       
       
         
-        <a href="../Browser%20extention/chrome/" class="md-footer__link md-footer__link--next" aria-label="Next: Google Chrome" rel="next">
+        <a href="../../../Security/" class="md-footer__link md-footer__link--next" aria-label="Next: Security" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Google Chrome
+              Security
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -804,10 +872,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.instant", "navigation.top", "search.highlight", "search.suggest", "header.autohide", "toc.autohide", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.instant", "navigation.top", "search.highlight", "search.suggest", "header.autohide", "toc.autohide", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.f758a944.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.f758a944.min.js"></script>
       
     
   </body>

@@ -1,5 +1,6 @@
 site_name: Password Safe Documentation
 site_author: MATESO GmbH
+
 extra:
   generator: true
   social:
@@ -8,15 +9,13 @@ extra:
     link: https://www.linkedin.com/company/mateso-gmbh/
   - icon: fontawesome/brands/twitter
     link: https://twitter.com/matesogmbh
-  version:
-    provider: mike
-    
+
 theme:
-  logo: assets/logo.png
+  logo: assets/logo_white.png
+  favicon: assets/favicon.svg
   language: en
   name: material
-  icon: 
-    repo: fontawesome/brands/github  
+
   features:
   - navigation.indexes
   - navigation.instant
@@ -30,17 +29,24 @@ theme:
   - toc.autohide
   - content.tabs.link
 
-  palette: 
-    - scheme: default
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: indigo
+      accent: indigo
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/brightness-7
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: indigo
+      accent: pink
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to light mode
+
+extra_css:
+  - assets/stylesheets/extra.css
 
 plugins:
   - search:

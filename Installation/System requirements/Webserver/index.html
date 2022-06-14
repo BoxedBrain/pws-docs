@@ -15,7 +15,7 @@
     
     
       
-        <title>MSSQL Server - Password Safe Documentation</title>
+        <title>Webserver - Password Safe Documentation</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mssql-server" class="md-skip">
+        <a href="#webserver" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MSSQL Server
+              Webserver
             
           </span>
         </div>
@@ -458,6 +458,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../MSSQL/" class="md-nav__link">
+        MSSQL Server
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -470,12 +484,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          MSSQL Server
+          Webserver
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        MSSQL Server
+        Webserver
       </a>
       
         
@@ -494,23 +508,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#server-configuration" class="md-nav__link">
-    Server configuration
+  <a href="#supported-webservers" class="md-nav__link">
+    Supported webservers
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#database-configuration" class="md-nav__link">
-    Database configuration
-  </a>
-  
-    <nav class="md-nav" aria-label="Database configuration">
+    <nav class="md-nav" aria-label="Supported webservers">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#permissions" class="md-nav__link">
-    Permissions
+  <a href="#iis" class="md-nav__link">
+    IIS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apache" class="md-nav__link">
+    Apache
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nginx" class="md-nav__link">
+    Nginx
   </a>
   
 </li>
@@ -520,31 +541,10 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#firewall-ports" class="md-nav__link">
-    Firewall / Ports
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Webserver/" class="md-nav__link">
-        Webserver
-      </a>
     </li>
   
 
@@ -686,36 +686,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#server-configuration" class="md-nav__link">
-    Server configuration
+  <a href="#supported-webservers" class="md-nav__link">
+    Supported webservers
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#database-configuration" class="md-nav__link">
-    Database configuration
-  </a>
-  
-    <nav class="md-nav" aria-label="Database configuration">
+    <nav class="md-nav" aria-label="Supported webservers">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#permissions" class="md-nav__link">
-    Permissions
+  <a href="#iis" class="md-nav__link">
+    IIS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apache" class="md-nav__link">
+    Apache
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nginx" class="md-nav__link">
+    Nginx
   </a>
   
 </li>
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#firewall-ports" class="md-nav__link">
-    Firewall / Ports
-  </a>
   
 </li>
       
@@ -733,50 +733,41 @@
                 
 
 
-<h1 id="mssql-server">MSSQL Server<a class="headerlink" href="#mssql-server" title="Permanent link">⚓︎</a></h1>
-<h2 id="server-configuration">Server configuration<a class="headerlink" href="#server-configuration" title="Permanent link">⚓︎</a></h2>
-<p>We recommend that you install the database on a separate MSSQL database cluster in order to prevent system failures. It should also be mirrored to another data centre at a different location.</p>
-<p>We recommend the following specs to ensure smooth operation:</p>
-<ul>
-<li>Min. Windows Server 2012 R2</li>
-<li>At least 4 x CPU</li>
-<li>Min. 16 GB RAM</li>
-<li>Min. 100 GB hard disk space</li>
-<li>Installed and licensed Microsoft MSSQL Server 2012 or later (starting from Express)</li>
-</ul>
+<h1 id="webserver">Webserver<a class="headerlink" href="#webserver" title="Permanent link">⚓︎</a></h1>
+<p>In principle, the Password Safe WebClient can be installed on all current web servers. For this purpose, a corresponding SSL certificate is required for the https connection. The WebClient should ideally have the same version as the Password Safe server.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>comparison of the different MSSQL server editions can be found under the following link:<br />
-<a href="https://www.microsoft.com/de-de/sql-server/sql-server-2017-editions">SQL server editions</a></p>
+<p>As every web server is individually installed and configured, detailed knowledge of the system being used is required. Our partners would be pleased to carry out the installation via consulting.</p>
 </div>
+<p>The WebClient requires the following ports:</p>
+<ul>
+<li>Port 443 HTTPS zum Ansprechen des Webservers vom Client (eingehend)</li>
+<li>Port 11016 zur Kommunikation mit dem Anwendungsserver (ausgehend)</li>
+<li>Port 11018 für die Echtzeitaktualisierung (ausgehend)</li>
+</ul>
 <div class="admonition danger">
-<p class="admonition-title">Azure SQL service</p>
-<p>Unfortunately the Azure SQL service cannot currently be supported.
-Use this service at your own risk!</p>
+<p class="admonition-title">Important!</p>
+<p>The connection between the browser and the web server must be protected by an SSL certificate. It is strongly recommended that you purchase a certificate for this purpose from a service provider e.g.: Thawte. If you have not purchased an official certificate, please ensure that your certificate is sufficiently trusted. Otherwise, the certificate will be displayed in red and shown as insecure in the browser.</p>
 </div>
-<h2 id="database-configuration">Database configuration<a class="headerlink" href="#database-configuration" title="Permanent link">⚓︎</a></h2>
-<p>At least two databases are created during installation:</p>
+<h2 id="supported-webservers">Supported webservers<a class="headerlink" href="#supported-webservers" title="Permanent link">⚓︎</a></h2>
+<p>The Password Safe WebClient has been successfully tested on the following systems:</p>
+<h3 id="iis">IIS<a class="headerlink" href="#iis" title="Permanent link">⚓︎</a></h3>
 <ul>
-<li>The configuration database, which contains the settings for the application server</li>
-<li>The vault database, which holds all information about users and secrets</li>
+<li>Min. Version 7</li>
+<li>URL Rewrite module version 2.1 or higher</li>
+<li>Application Request Routing module version 3.0 or higher</li>
+<li>Websocket Protocol</li>
 </ul>
-<p>An MSSQL database is required for each Password Safe vault. Multiple databases can be run on one SQL instance. As Password Safe V8 enables the clean separation of all data via the authorization concept, a single MSSQL database is sufficient for most applications.</p>
-<div class="admonition danger">
-<p class="admonition-title">Be aware</p>
-<p>The databases must have the collation <code>Latin1_General_CI_AS</code>. If the SQL Server uses a different collation, Password Safe cannot create the database correctly. In this case, the database must be created manually on the server with the correct collation in order to subsequently link it to the AdminClient.</p>
-</div>
-<h3 id="permissions">Permissions<a class="headerlink" href="#permissions" title="Permanent link">⚓︎</a></h3>
-<p>A dedicated SQL user should be used for the Password Safe database conncection. The server admin (sa) may be used but is not recommended or necessary. The user requires the following rights:</p>
+<h3 id="apache">Apache<a class="headerlink" href="#apache" title="Permanent link">⚓︎</a></h3>
 <ul>
-<li>dbCreator: If the databases are created via the AdminClient, the user must have the dbCreator right.</li>
-<li>dbOwner: If the databases are created manually on the MSSQL server and are only managed by the AdminClient, dbOwner rights are sufficient.</li>
+<li>Min. Version 2.4</li>
+<li>mod_rewrite module</li>
+<li>mod_proxy module</li>
+<li>mod_ssl module</li>
+<li>mod_proxy_http module</li>
 </ul>
-<p>In any case, the user must have read rights to the master database.</p>
-<h2 id="firewall-ports">Firewall / Ports<a class="headerlink" href="#firewall-ports" title="Permanent link">⚓︎</a></h2>
-<p>The application server requires the following port to be enabled:</p>
-<ul>
-<li>Port 1433 TCP for communication with the application server (incoming)</li>
-</ul>
+<h3 id="nginx">Nginx<a class="headerlink" href="#nginx" title="Permanent link">⚓︎</a></h3>
+<p>Min. Version 1.13</p>
 
               
             </article>
@@ -799,7 +790,7 @@ Use this service at your own risk!</p>
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../Client/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Client configuration" rel="prev">
+        <a href="../MSSQL/" class="md-footer__link md-footer__link--prev" aria-label="Previous: MSSQL Server" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -808,20 +799,20 @@ Use this service at your own risk!</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              Client configuration
+              MSSQL Server
             </div>
           </div>
         </a>
       
       
         
-        <a href="../Webserver/" class="md-footer__link md-footer__link--next" aria-label="Next: Webserver" rel="next">
+        <a href="../../../Security/" class="md-footer__link md-footer__link--next" aria-label="Next: Security" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Webserver
+              Security
             </div>
           </div>
           <div class="md-footer__button md-icon">

@@ -1,7 +1,0 @@
----
-
----
-
-# Authentication
-
-bla

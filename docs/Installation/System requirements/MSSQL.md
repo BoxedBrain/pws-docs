@@ -13,9 +13,8 @@ We recommend the following specs to ensure smooth operation:
 - Installed and licensed Microsoft MSSQL Server 2012 or later (starting from Express)
 
 !!! note
-    comparison of the different MSSQL server editions can be found under the following link:
-    SQL server editions
-    The capacity limits for the specific editions are also listed here.
+    comparison of the different MSSQL server editions can be found under the following link:  
+    [SQL server editions](https://www.microsoft.com/de-de/sql-server/sql-server-2017-editions)
 
 !!! danger "Azure SQL service"
     Unfortunately the Azure SQL service cannot currently be supported.
@@ -32,7 +31,6 @@ An MSSQL database is required for each Password Safe vault. Multiple databases c
 
 !!! danger "Be aware"
     The databases must have the collation `Latin1_General_CI_AS`. If the SQL Server uses a different collation, Password Safe cannot create the database correctly. In this case, the database must be created manually on the server with the correct collation in order to subsequently link it to the AdminClient.
-
 
 ### Permissions
 

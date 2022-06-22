@@ -1,0 +1,20 @@
+name: Run PR through markdown-lint
+
+on: 
+  pull_request:
+    types:
+      - opened
+
+permissions: 
+  contents: read
+
+jobs:
+  markdown-lint:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: markdown-lint
+        uses: articulate/actions-markdownlint@v1

@@ -21,6 +21,6 @@ jobs:
 
       - name: lint all markdown files
         uses: actions/setup-node@master
-        run: |
+      - run: |
           npm ci
           node_modules/.bin/markdownlint '**/*.md' --ignore node_modules --disable MD013

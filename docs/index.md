@@ -1,4 +1,5 @@
 ---
+title: Welcome
 hide:
   - navigation
   - toc

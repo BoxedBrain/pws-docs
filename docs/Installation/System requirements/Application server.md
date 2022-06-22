@@ -38,7 +38,7 @@ A user via which the Password Safe server can log in to the SQL server is requir
 The service user runs the Password Safe server service. The following can be configured here:
 
 - AD user: It is specified in the format Domain\username along with its associated password
-- *Local user: It is specified in the format .\user name along with its associated password
+- Local user: It is specified in the format .\user name along with its associated password
 - Local system account: It can be activated via a checkbox - not recommended in production environments!
 
 !!! danger "Be aware"

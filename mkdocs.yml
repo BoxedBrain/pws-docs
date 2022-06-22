@@ -1,5 +1,7 @@
 site_name: Password Safe Documentation
 site_author: MATESO GmbH
+repo_url: https://github.com/BoxedBrain/pws-docs
+repo_name: BoxedBrain/pws-docs
 
 extra:
   generator: true
@@ -15,6 +17,8 @@ theme:
   favicon: assets/favicon.svg
   language: en
   name: material
+  icon:
+    repo: material/file-document-outline
 
   features:
   - navigation.indexes
@@ -53,6 +57,7 @@ plugins:
       prebuild_index: true
 
 markdown_extensions:
+  - meta
   - abbr
   - admonition
   - footnotes

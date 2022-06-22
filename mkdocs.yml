@@ -75,20 +75,20 @@ copyright: Maintained with ❤️ by MATESO GmbH and contributors
 
 
 nav:
-  - index.md
-  - Installation:
+  - Welcome: index.md
+  - Installation: 
     - installation/index.md
     - System requirements:
-      - installation/requirements/server.md
-      - installation/requirements/mssql.md
-      - installation/requirements/client.md
-      - installation/requirements/webserver.md
+      - Server: installation/requirements/server.md
+      - MSSQL: installation/requirements/mssql.md
+      - Client: installation/requirements/client.md
+      - Webserver: installation/requirements/webserver.md
     - Browser extensions:
       - installation/browser/chrome.md
       - installation/browser/firefox.md
   - FAQ:
     - Security:
       - faq/security/index.md
-      - faq/security/made_in_germany.md
-      - faq/security/encryption.md
-      - faq/security/pentest.md
+      - Made in Germany: faq/security/made_in_germany.md
+      - Encryption: faq/security/encryption.md
+      - Pentest: faq/security/pentest.md

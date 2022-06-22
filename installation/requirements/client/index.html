@@ -15,7 +15,7 @@
     
     
       
-        <title>Google Chrome - Password Safe Documentation</title>
+        <title>Client - Password Safe Documentation</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#google-chrome" class="md-skip">
+        <a href="#client-configuration" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Google Chrome
+              Client
             
           </span>
         </div>
@@ -208,13 +208,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../../installation/index.md" class="md-tabs__link">
+      <a href="../../" class="md-tabs__link md-tabs__link--active">
         Installation
       </a>
     </li>
@@ -308,16 +310,20 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
         
+          
+            
           
         
           
@@ -326,10 +332,16 @@
         
       
       
-        <label class="md-nav__link" for="__nav_2">
-          Installation
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../">Installation</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
       <nav class="md-nav" aria-label="Installation" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
@@ -339,29 +351,19 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../installation/index.md" class="md-nav__link">
-        None
-      </a>
-    </li>
-  
-
-            
           
             
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" checked>
       
       
       
@@ -394,7 +396,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../installation/requirements/server.md" class="md-nav__link">
+      <a href="../server/" class="md-nav__link">
         Server
       </a>
     </li>
@@ -408,7 +410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../installation/requirements/mssql.md" class="md-nav__link">
+      <a href="../mssql/" class="md-nav__link">
         MSSQL
       </a>
     </li>
@@ -420,11 +422,59 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../../installation/requirements/client.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Client
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Client
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#terminal-server" class="md-nav__link">
+    Terminal server
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firewall-ports" class="md-nav__link">
+    Firewall / Ports
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -436,7 +486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../installation/requirements/webserver.md" class="md-nav__link">
+      <a href="../webserver/" class="md-nav__link">
         Webserver
       </a>
     </li>
@@ -489,8 +539,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../installation/browser/chrome.md" class="md-nav__link">
-        None
+      <a href="../../browser/chrome/" class="md-nav__link">
+        Google Chrome
       </a>
     </li>
   
@@ -503,8 +553,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../installation/browser/firefox.md" class="md-nav__link">
-        None
+      <a href="../../browser/firefox/" class="md-nav__link">
+        Firefox
       </a>
     </li>
   
@@ -677,6 +727,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#terminal-server" class="md-nav__link">
+    Terminal server
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firewall-ports" class="md-nav__link">
+    Firewall / Ports
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -687,21 +759,34 @@
             <article class="md-content__inner md-typeset">
               
                 
-  <a href="https://github.com/BoxedBrain/pws-docs/edit/master/docs/install/browser/chrome.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/BoxedBrain/pws-docs/edit/master/docs/installation/requirements/client.md" title="Edit this page" class="md-content__button md-icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
 
-<h1 id="google-chrome">Google Chrome<a class="headerlink" href="#google-chrome" title="Permanent link">⚓︎</a></h1>
-<p>The installation of the Google Chrome Add-on is done directly from the Google Store. You can access it via the following link:
-<a href="https://chrome.google.com/webstore/detail/password-safe/bpjfchmapbmjeklgmlkabfepflgfckip" target="_blank">Password Safe Add-on for Google Chrome</a>.</p>
-<p>Alternatively, you can also access the Google Store via the SSO Agent. To do this, right-click the icon to open the context menu. After a further click on Install Browser Add-ons the Google Chrome Add-on can be selected, whereupon you will be redirected directly to the Google Store.</p>
-<p>The installation is started via Add.</p>
-<p>The add-on is now installed and the icon is added to the browser.</p>
-<p>Installing the add-on via the WebClient
-It is also possible to install the add-on via the WebClient.</p>
-<p>To do this, click on the icon in the web client, which is located at the bottom in the middle of the page.</p>
+<h1 id="client-configuration">Client configuration<a class="headerlink" href="#client-configuration" title="Permanent link">⚓︎</a></h1>
+<p>The performance is only dependent on the client to a small extent. The user’s settings are imported directly from the MSSQL database.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>You can use a software deployment to rollout Password Safe. We provide an MSI installer package for that purpose.</p>
+</div>
+<p>We recommend the following min. configuration, to ensure smooth operation:</p>
+<ul>
+<li>Microsoft Windows version 7 (latest patch level)</li>
+<li>At least 2 x CPU</li>
+<li>Min. 2 GB RAM</li>
+<li>Min. 40 GB hard disk space</li>
+<li>.net library 4.8.0 or newer</li>
+<li>If RDP connections are to be established, it is necessary to have installed RDP 8.1 at least</li>
+</ul>
+<h2 id="terminal-server">Terminal server<a class="headerlink" href="#terminal-server" title="Permanent link">⚓︎</a></h2>
+<p>The client can also be operated on a Windows Terminal Server. For the automatic sign-on, the SSO Agent must be installed as a service on the terminal server.</p>
+<h2 id="firewall-ports">Firewall / Ports<a class="headerlink" href="#firewall-ports" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li>Port 11011 TCP for communication with the application server (outgoing)</li>
+<li>Port 52120 TCP with the add-on (outgoing)</li>
+</ul>
 
               
             </article>
@@ -719,6 +804,42 @@ It is also possible to install the add-on via the WebClient.</p>
       </main>
       
         <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../mssql/" class="md-footer__link md-footer__link--prev" aria-label="Previous: MSSQL" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              MSSQL
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../webserver/" class="md-footer__link md-footer__link--next" aria-label="Next: Webserver" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Webserver
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

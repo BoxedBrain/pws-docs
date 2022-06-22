@@ -15,7 +15,7 @@
     
     
       
-        <title>Firefox - Password Safe Documentation</title>
+        <title>Webserver - Password Safe Documentation</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#firefox" class="md-skip">
+        <a href="#webserver" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Firefox
+              Webserver
             
           </span>
         </div>
@@ -208,13 +208,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../../installation/index.md" class="md-tabs__link">
+      <a href="../../" class="md-tabs__link md-tabs__link--active">
         Installation
       </a>
     </li>
@@ -308,16 +310,20 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
         
+          
+            
           
         
           
@@ -326,10 +332,16 @@
         
       
       
-        <label class="md-nav__link" for="__nav_2">
-          Installation
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../">Installation</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
       <nav class="md-nav" aria-label="Installation" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
@@ -339,29 +351,19 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../installation/index.md" class="md-nav__link">
-        None
-      </a>
-    </li>
-  
-
-            
           
             
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" checked>
       
       
       
@@ -394,7 +396,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../installation/requirements/server.md" class="md-nav__link">
+      <a href="../server/" class="md-nav__link">
         Server
       </a>
     </li>
@@ -408,7 +410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../installation/requirements/mssql.md" class="md-nav__link">
+      <a href="../mssql/" class="md-nav__link">
         MSSQL
       </a>
     </li>
@@ -422,7 +424,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../installation/requirements/client.md" class="md-nav__link">
+      <a href="../client/" class="md-nav__link">
         Client
       </a>
     </li>
@@ -434,11 +436,79 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../../installation/requirements/webserver.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Webserver
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Webserver
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#supported-webservers" class="md-nav__link">
+    Supported webservers
+  </a>
+  
+    <nav class="md-nav" aria-label="Supported webservers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iis" class="md-nav__link">
+    IIS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apache" class="md-nav__link">
+    Apache
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nginx" class="md-nav__link">
+    Nginx
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -489,8 +559,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../installation/browser/chrome.md" class="md-nav__link">
-        None
+      <a href="../../browser/chrome/" class="md-nav__link">
+        Google Chrome
       </a>
     </li>
   
@@ -503,8 +573,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../installation/browser/firefox.md" class="md-nav__link">
-        None
+      <a href="../../browser/firefox/" class="md-nav__link">
+        Firefox
       </a>
     </li>
   
@@ -677,6 +747,48 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#supported-webservers" class="md-nav__link">
+    Supported webservers
+  </a>
+  
+    <nav class="md-nav" aria-label="Supported webservers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iis" class="md-nav__link">
+    IIS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apache" class="md-nav__link">
+    Apache
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nginx" class="md-nav__link">
+    Nginx
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -687,18 +799,47 @@
             <article class="md-content__inner md-typeset">
               
                 
-  <a href="https://github.com/BoxedBrain/pws-docs/edit/master/docs/install/browser/firefox.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/BoxedBrain/pws-docs/edit/master/docs/installation/requirements/webserver.md" title="Edit this page" class="md-content__button md-icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
 
-<h1 id="firefox">Firefox<a class="headerlink" href="#firefox" title="Permanent link">⚓︎</a></h1>
-<p>The installation of the Firefox Add-on is done directly from the official Store.
-The Firefox Add-on can be downloaded from the following link:
-<a href="https://mateso.co/PS8ADDONFIREFOX" target="_blank">Password Safe Add-on for Firefox</a>.</p>
-<p>After the download, the add-on is simply dragged and dropped into the browser.</p>
-<p>After confirming a security question, it is installed and an icon is created in the menu bar.</p>
+<h1 id="webserver">Webserver<a class="headerlink" href="#webserver" title="Permanent link">⚓︎</a></h1>
+<p>In principle, the Password Safe WebClient can be installed on all current web servers. For this purpose, a corresponding SSL certificate is required for the https connection. The WebClient should ideally have the same version as the Password Safe server.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As every web server is individually installed and configured, detailed knowledge of the system being used is required. Our partners would be pleased to carry out the installation via consulting.</p>
+</div>
+<p>The WebClient requires the following ports:</p>
+<ul>
+<li>Port 443 HTTPS zum Ansprechen des Webservers vom Client (eingehend)</li>
+<li>Port 11016 zur Kommunikation mit dem Anwendungsserver (ausgehend)</li>
+<li>Port 11018 für die Echtzeitaktualisierung (ausgehend)</li>
+</ul>
+<div class="admonition danger">
+<p class="admonition-title">Important!</p>
+<p>The connection between the browser and the web server must be protected by an SSL certificate. It is strongly recommended that you purchase a certificate for this purpose from a service provider e.g.: Thawte. If you have not purchased an official certificate, please ensure that your certificate is sufficiently trusted. Otherwise, the certificate will be displayed in red and shown as insecure in the browser.</p>
+</div>
+<h2 id="supported-webservers">Supported webservers<a class="headerlink" href="#supported-webservers" title="Permanent link">⚓︎</a></h2>
+<p>The Password Safe WebClient has been successfully tested on the following systems:</p>
+<h3 id="iis">IIS<a class="headerlink" href="#iis" title="Permanent link">⚓︎</a></h3>
+<ul>
+<li>Min. Version 7</li>
+<li>URL Rewrite module version 2.1 or higher</li>
+<li>Application Request Routing module version 3.0 or higher</li>
+<li>Websocket Protocol</li>
+</ul>
+<h3 id="apache">Apache<a class="headerlink" href="#apache" title="Permanent link">⚓︎</a></h3>
+<ul>
+<li>Min. Version 2.4</li>
+<li>mod_rewrite module</li>
+<li>mod_proxy module</li>
+<li>mod_ssl module</li>
+<li>mod_proxy_http module</li>
+</ul>
+<h3 id="nginx">Nginx<a class="headerlink" href="#nginx" title="Permanent link">⚓︎</a></h3>
+<p>Min. Version 1.13</p>
 
               
             </article>
@@ -716,6 +857,42 @@ The Firefox Add-on can be downloaded from the following link:
       </main>
       
         <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../client/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Client" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Client
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../browser/chrome/" class="md-footer__link md-footer__link--next" aria-label="Next: Google Chrome" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Google Chrome
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

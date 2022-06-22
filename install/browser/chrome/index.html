@@ -15,7 +15,7 @@
     
     
       
-        <title>Client configuration - Password Safe Documentation</title>
+        <title>Google Chrome - Password Safe Documentation</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#client-configuration" class="md-skip">
+        <a href="#google-chrome" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Client configuration
+              Google Chrome
             
           </span>
         </div>
@@ -677,28 +677,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#terminal-server" class="md-nav__link">
-    Terminal server
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#firewall-ports" class="md-nav__link">
-    Firewall / Ports
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -709,34 +687,21 @@
             <article class="md-content__inner md-typeset">
               
                 
-  <a href="https://github.com/BoxedBrain/pws-docs/edit/master/docs/Installation/requirements/client.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/BoxedBrain/pws-docs/edit/master/docs/install/browser/chrome.md" title="Edit this page" class="md-content__button md-icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
 
-<h1 id="client-configuration">Client configuration<a class="headerlink" href="#client-configuration" title="Permanent link">⚓︎</a></h1>
-<p>The performance is only dependent on the client to a small extent. The user’s settings are imported directly from the MSSQL database.</p>
-<div class="admonition hint">
-<p class="admonition-title">Hint</p>
-<p>You can use a software deployment to rollout Password Safe. We provide an MSI installer package for that purpose.</p>
-</div>
-<p>We recommend the following min. configuration, to ensure smooth operation:</p>
-<ul>
-<li>Microsoft Windows version 7 (latest patch level)</li>
-<li>At least 2 x CPU</li>
-<li>Min. 2 GB RAM</li>
-<li>Min. 40 GB hard disk space</li>
-<li>.net library 4.8.0 or newer</li>
-<li>If RDP connections are to be established, it is necessary to have installed RDP 8.1 at least</li>
-</ul>
-<h2 id="terminal-server">Terminal server<a class="headerlink" href="#terminal-server" title="Permanent link">⚓︎</a></h2>
-<p>The client can also be operated on a Windows Terminal Server. For the automatic sign-on, the SSO Agent must be installed as a service on the terminal server.</p>
-<h2 id="firewall-ports">Firewall / Ports<a class="headerlink" href="#firewall-ports" title="Permanent link">⚓︎</a></h2>
-<ul>
-<li>Port 11011 TCP for communication with the application server (outgoing)</li>
-<li>Port 52120 TCP with the add-on (outgoing)</li>
-</ul>
+<h1 id="google-chrome">Google Chrome<a class="headerlink" href="#google-chrome" title="Permanent link">⚓︎</a></h1>
+<p>The installation of the Google Chrome Add-on is done directly from the Google Store. You can access it via the following link:
+<a href="https://chrome.google.com/webstore/detail/password-safe/bpjfchmapbmjeklgmlkabfepflgfckip" target="_blank">Password Safe Add-on for Google Chrome</a>.</p>
+<p>Alternatively, you can also access the Google Store via the SSO Agent. To do this, right-click the icon to open the context menu. After a further click on Install Browser Add-ons the Google Chrome Add-on can be selected, whereupon you will be redirected directly to the Google Store.</p>
+<p>The installation is started via Add.</p>
+<p>The add-on is now installed and the icon is added to the browser.</p>
+<p>Installing the add-on via the WebClient
+It is also possible to install the add-on via the WebClient.</p>
+<p>To do this, click on the icon in the web client, which is located at the bottom in the middle of the page.</p>
 
               
             </article>

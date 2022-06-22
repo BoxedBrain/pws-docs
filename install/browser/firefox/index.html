@@ -15,7 +15,7 @@
     
     
       
-        <title>Webserver - Password Safe Documentation</title>
+        <title>Firefox - Password Safe Documentation</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#webserver" class="md-skip">
+        <a href="#firefox" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Webserver
+              Firefox
             
           </span>
         </div>
@@ -677,48 +677,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#supported-webservers" class="md-nav__link">
-    Supported webservers
-  </a>
-  
-    <nav class="md-nav" aria-label="Supported webservers">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#iis" class="md-nav__link">
-    IIS
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#apache" class="md-nav__link">
-    Apache
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#nginx" class="md-nav__link">
-    Nginx
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -729,47 +687,18 @@
             <article class="md-content__inner md-typeset">
               
                 
-  <a href="https://github.com/BoxedBrain/pws-docs/edit/master/docs/Installation/requirements/webserver.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/BoxedBrain/pws-docs/edit/master/docs/install/browser/firefox.md" title="Edit this page" class="md-content__button md-icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
 
-<h1 id="webserver">Webserver<a class="headerlink" href="#webserver" title="Permanent link">⚓︎</a></h1>
-<p>In principle, the Password Safe WebClient can be installed on all current web servers. For this purpose, a corresponding SSL certificate is required for the https connection. The WebClient should ideally have the same version as the Password Safe server.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>As every web server is individually installed and configured, detailed knowledge of the system being used is required. Our partners would be pleased to carry out the installation via consulting.</p>
-</div>
-<p>The WebClient requires the following ports:</p>
-<ul>
-<li>Port 443 HTTPS zum Ansprechen des Webservers vom Client (eingehend)</li>
-<li>Port 11016 zur Kommunikation mit dem Anwendungsserver (ausgehend)</li>
-<li>Port 11018 für die Echtzeitaktualisierung (ausgehend)</li>
-</ul>
-<div class="admonition danger">
-<p class="admonition-title">Important!</p>
-<p>The connection between the browser and the web server must be protected by an SSL certificate. It is strongly recommended that you purchase a certificate for this purpose from a service provider e.g.: Thawte. If you have not purchased an official certificate, please ensure that your certificate is sufficiently trusted. Otherwise, the certificate will be displayed in red and shown as insecure in the browser.</p>
-</div>
-<h2 id="supported-webservers">Supported webservers<a class="headerlink" href="#supported-webservers" title="Permanent link">⚓︎</a></h2>
-<p>The Password Safe WebClient has been successfully tested on the following systems:</p>
-<h3 id="iis">IIS<a class="headerlink" href="#iis" title="Permanent link">⚓︎</a></h3>
-<ul>
-<li>Min. Version 7</li>
-<li>URL Rewrite module version 2.1 or higher</li>
-<li>Application Request Routing module version 3.0 or higher</li>
-<li>Websocket Protocol</li>
-</ul>
-<h3 id="apache">Apache<a class="headerlink" href="#apache" title="Permanent link">⚓︎</a></h3>
-<ul>
-<li>Min. Version 2.4</li>
-<li>mod_rewrite module</li>
-<li>mod_proxy module</li>
-<li>mod_ssl module</li>
-<li>mod_proxy_http module</li>
-</ul>
-<h3 id="nginx">Nginx<a class="headerlink" href="#nginx" title="Permanent link">⚓︎</a></h3>
-<p>Min. Version 1.13</p>
+<h1 id="firefox">Firefox<a class="headerlink" href="#firefox" title="Permanent link">⚓︎</a></h1>
+<p>The installation of the Firefox Add-on is done directly from the official Store.
+The Firefox Add-on can be downloaded from the following link:
+<a href="https://mateso.co/PS8ADDONFIREFOX" target="_blank">Password Safe Add-on for Firefox</a>.</p>
+<p>After the download, the add-on is simply dragged and dropped into the browser.</p>
+<p>After confirming a security question, it is installed and an icon is created in the menu bar.</p>
 
               
             </article>

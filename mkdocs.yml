@@ -73,7 +73,6 @@ markdown_extensions:
       permalink: ⚓︎
 copyright: Maintained with ❤️ by MATESO GmbH and contributors
 
-
 nav:
   - Welcome: index.md
   - Installation: 
@@ -85,6 +84,7 @@ nav:
       - Webserver: installation/requirements/webserver.md
     - Browser extensions:
       - installation/browser/chrome.md
+      - installation/browser/edge.md
       - installation/browser/firefox.md
   - FAQ:
     - Security:

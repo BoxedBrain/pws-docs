@@ -55,7 +55,7 @@ extra_css:
 plugins:
   - search:
       prebuild_index: true
-  - git-revision-date-localized:
+  - git-revision-date:
       enabled_if_env: CI
       type: date
 

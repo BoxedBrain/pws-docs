@@ -10,8 +10,10 @@
 version: '3.7'
 
 services:
-  pws-documentation:
-    image: squidfunk/mkdocs-material:latest
+  pws-docs:
+    build:
+      context: .
+    image: pws-docs:dev
     ports:
       - '8000:8000'
     volumes:

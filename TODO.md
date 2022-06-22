@@ -1,4 +1,4 @@
 # Add to do´s here
 
-* lorem ipsum
+* links in update.md
 * lorem ipsum

@@ -1,0 +1,9 @@
+{
+  "name": "pws-docs",
+  "description": "Password Safe documentation",
+  "author": "Tobias Nessel",
+  "scripts": {},
+  "dependencies": {
+    "markdownlint-cli": "^0.31.1"
+  }
+}

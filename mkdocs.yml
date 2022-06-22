@@ -86,6 +86,8 @@ nav:
       - installation/browser/chrome.md
       - installation/browser/edge.md
       - installation/browser/firefox.md
+      - installation/browser/safari.md
+    - Update: installation/update.md
   - FAQ:
     - Security:
       - faq/security/index.md

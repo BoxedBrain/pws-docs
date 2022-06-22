@@ -74,9 +74,21 @@ markdown_extensions:
 copyright: Maintained with ❤️ by MATESO GmbH and contributors
 
 
-#nav:
-#  - Examples:
-#    - Examples/index.md
-#    - Authentication:
-#      - Examples/Authentication/index.md
-#      - Page 1: Examples/Authentication/Logout.md
+nav:
+  - index.md
+  - Installation:
+    - installation/index.md
+    - System requirements:
+      - installation/requirements/server.md
+      - installation/requirements/mssql.md
+      - installation/requirements/client.md
+      - installation/requirements/webserver.md
+    - Browser extensions:
+      - installation/browser/chrome.md
+      - installation/browser/firefox.md
+  - FAQ:
+    - Security:
+      - faq/security/index.md
+      - faq/security/made_in_germany.md
+      - faq/security/encryption.md
+      - faq/security/pentest.md

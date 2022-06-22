@@ -13,7 +13,7 @@ services:
   pws-docs:
     build:
       context: .
-    image: pws-docs:dev
+    image: squidfunk/mkdocs-material
     ports:
       - '8000:8000'
     volumes:

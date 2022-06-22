@@ -40,7 +40,7 @@ Please simply use the access data that we sent to you by email to log in.
 
 ### Updating the AdminClient
 
-The AdminClient is simply installed on top of the existing installation. The password from the Admin Client should be made available at this point in any case. After the installation of the Admin Client, the database is only accessible when it is activated. If the password is only in the password safe, it should be temporarily stored at this point. 
+The AdminClient is simply installed on top of the existing installation. The password from the Admin Client should be made available at this point in any case. After the installation of the Admin Client, the database is only accessible when it is activated. If the password is only in the password safe, it should be temporarily stored at this point.
 
 !!! hint
     If the service has not been ended in advance, the installation wizard will give you the opportunity to do so. If the service is still not ended at this stage, the computer will then need to be restarted. It is thus recommended that the Password Safe services are ended before the update.

@@ -11,6 +11,5 @@ The installation is started via Add.
 
 The add-on is now installed and the icon is added to the browser.
 
-## Installing the add-on via the WebClient
-
-It is also possible to install the add-on via the WebClient. To do this, login to the WebClient and click on the icon at the bottom of the page.
+!!! hint
+    It is also possible to find the Add-on link in the WebClient page footer, if it is not installed yet.

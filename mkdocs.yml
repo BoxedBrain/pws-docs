@@ -82,6 +82,8 @@ nav:
       - MSSQL: installation/requirements/mssql.md
       - Client: installation/requirements/client.md
       - Webserver: installation/requirements/webserver.md
+    - Instakkation Clients:
+      - installation/installadminclient.md
     - Browser extensions:
       - installation/browser/chrome.md
       - installation/browser/edge.md

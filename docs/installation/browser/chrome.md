@@ -1,6 +1,6 @@
 # Google Chrome
 
-### Installing the add-on
+## Installing the add-on
 
 The installation of the Google Chrome Add-on is done directly from the Google Store. You can access it via the following link:
 [Password Safe Add-on for Google Chrome](https://chrome.google.com/webstore/detail/password-safe/bpjfchmapbmjeklgmlkabfepflgfckip){target=_blank}.
@@ -11,6 +11,6 @@ The installation is started via Add.
 
 The add-on is now installed and the icon is added to the browser.
 
-### Installing the add-on via the WebClient
+## Installing the add-on via the WebClient
 
 It is also possible to install the add-on via the WebClient. To do this, login to the WebClient and click on the icon at the bottom of the page.

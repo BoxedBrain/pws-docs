@@ -1,6 +1,6 @@
 # Edge
 
-### Installing the add-on
+## Installing the add-on
 
 The installation of the Edge Add-on is done directly from the official Store.
 The Edge Add-on can be downloaded from the following link:

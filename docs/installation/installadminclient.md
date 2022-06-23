@@ -2,7 +2,7 @@
 
 ## Guide
 
-The MSI installation files and the associated [Server system requirements](/docs/installation/requirements/server){target=_blank} can be found in the corresponding sections. The following step-by-step guide will accompany you through the wizards.
+The MSI installation files and the associated [Server system requirements](/installation/requirements/server) can be found in the corresponding sections. The following step-by-step guide will accompany you through the wizards.
 
 ![Image title](/assets/en/installation/adminclient/installation-admin-client-1-en.png){align=center loading=lazy}
 

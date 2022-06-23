@@ -1,5 +1,7 @@
 # Firefox
 
+### Installing the add-on
+
 The installation of the Firefox Add-on is done directly from the official Store.
 The Firefox Add-on can be downloaded from the following link:
 [Password Safe Add-on for Firefox](https://mateso.co/PS8ADDONFIREFOX){target=_blank}.

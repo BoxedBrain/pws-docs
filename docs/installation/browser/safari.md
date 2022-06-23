@@ -1,5 +1,7 @@
 # Safari
 
+## Installing the add-on
+
 The Safari Add-on can be downloaded from the following link:
 [Password Safe Add-on for Safari](https://mateso.co/PS8ADDONSAFARI){target=_blank}.
 

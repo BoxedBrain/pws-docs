@@ -2,7 +2,7 @@
 
 ## The TeleTrusT initiative
 
-![Image title](/assets/en/teletrust.png){ align=right width=35% loading=lazy }
+![Image title](/assets/en/faq/security/teletrust.png){ align=right width=35% loading=lazy }
 MATESO GmbH, with the product “Password Safe”, is a member of the TeleTrusT Initiative “IT-Security made in Germany”. The quality label has its roots in the co-operation between the German Federal Ministry of the Interior (BMI), the German Federal Ministry for Economic Affairs and Energy (BMWi), and representatives of the German IT security industry. This co-operation has been pushed forward since 2005.
 
 ## Our quality label certifications

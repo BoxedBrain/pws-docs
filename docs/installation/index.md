@@ -6,7 +6,7 @@ The following pages will provide you with all the informations how to install th
 
 The following overview presents a basic production Password Safe system landscape. Version 8 allows use of several database servers across all sites. These are then synchronized using Microsoft SQL server tools. Any number of application servers can be made available for the client connection. This ensures load distribution, and allows work without significant latency. This technology offers enormous performance advantages, particularly in the case of installations that are spread across worldwide locations.
 
-![Image title](/assets/en/system_landscape.png){ loading=lazy }
+![Image title](/assets/en/installation_main/system_landscape.png){ loading=lazy }
 
 ## Client (presentation layer)
 
@@ -50,7 +50,7 @@ At least three servers are thus recommended:
 
 - Port 443 HTTPS to access the webserver from the client (incoming)
 - Port 11016 for communication to the application server (outgoing)
-- Port 11018 für die Echtzeitaktualisierung (outgoing)
+- Port 11018 for the real-time update (outgoing)
 
 ### Client
 

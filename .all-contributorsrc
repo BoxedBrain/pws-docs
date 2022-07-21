@@ -25,6 +25,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "MATESO-Dennis",
+      "name": "MATESO-Dennis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109740489?v=4",
+      "profile": "https://github.com/MATESO-Dennis",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "projectName": "pws-docs",

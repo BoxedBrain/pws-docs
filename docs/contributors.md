@@ -7,8 +7,9 @@ Thanks goes to all these wonderful people ❤️
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/BoxedBrain"><img src="https://avatars.githubusercontent.com/u/7748392?v=4" width="100px;" alt=""/><br /><sub><b>BoxedBrain</b></sub></a></td>
-    <td align="center"><a href="https://github.com/ZapSep"><img src="https://avatars.githubusercontent.com/u/99329498?v=4" width="100px;" alt=""/><br /><sub><b>ZapSep</b></sub></a></td>
+    <td align="center"><a href="https://github.com/BoxedBrain"><img src="https://avatars.githubusercontent.com/u/7748392?v=4?s=100" width="100px;" alt=""/><br /><sub><b>BoxedBrain</b></sub></a><br /><a href="#maintenance-BoxedBrain" title="Maintenance">🚧</a> <a href="#content-BoxedBrain" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ZapSep"><img src="https://avatars.githubusercontent.com/u/99329498?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ZapSep</b></sub></a><br /><a href="#content-ZapSep" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/MATESO-Dennis"><img src="https://avatars.githubusercontent.com/u/109740489?v=4?s=100" width="100px;" alt=""/><br /><sub><b>MATESO-Dennis</b></sub></a><br /><a href="https://github.com/BoxedBrain/pws-docs/commits?author=MATESO-Dennis" title="Documentation">📖</a></td>
   </tr>
 </table>
 

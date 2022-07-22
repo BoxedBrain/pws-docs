@@ -65,9 +65,10 @@ plugins:
       enable_creation_date: true
       exclude:
           - index.md
-      enabled: !ENV [CI, False]
+      enabled: !ENV [CI, false]
   - awesome-pages
   - macros:
+      on_error_fail: !ENV [CI, false]
       include_yaml:
         - macros.yml
 

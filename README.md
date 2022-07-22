@@ -8,7 +8,7 @@ Be aware, that the documentation uses [Markup Language](https://www.markdownguid
 
 If you'd like to do more advanced changes, checkout the following links:
 
- - [MkDocs Material docs](https://squidfunk.github.io/mkdocs-material/getting-started/)
+- [MkDocs Material docs](https://squidfunk.github.io/mkdocs-material/getting-started/)
 - [MkDocs awesome-pages-plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin)
 - [MkDocs Macros](https://mkdocs-macros-plugin.readthedocs.io/)
 

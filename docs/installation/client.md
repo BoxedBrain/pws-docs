@@ -39,7 +39,7 @@ The Offline Client allows access to the data without connection to AdminClient.
 
 ![ph_sso_client](http://via.placeholder.com/600x400)
 
-The SSO Agent is the link between the browser add-ons and the database. It allows automatic login without opening the Client and runs in the background. 
+The SSO Agent is the link between the browser add-ons and the database. It allows automatic login without opening the Client and runs in the background.
 
 ## Integrating a database
 

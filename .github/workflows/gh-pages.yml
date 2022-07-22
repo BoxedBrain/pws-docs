@@ -17,12 +17,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Install environment
         uses: actions/setup-python@v2      
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material \
+      - run: pip install --upgrade pip \
+             mkdocs-material \
              mkdocs-git-revision-date-localized-plugin \
              mkdocs-awesome-pages-plugin \
              mkdocs-macros-plugin

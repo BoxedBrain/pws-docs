@@ -2,3 +2,4 @@
 
 * links in update.md
 * adminclient links
+* variables for links

@@ -3,3 +3,5 @@
 * links in update.md
 * adminclient links
 * variables for links
+* links client installation
+* redo client installation pics

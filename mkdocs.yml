@@ -83,6 +83,7 @@ nav:
       - Client: installation/requirements/client.md
       - Webserver: installation/requirements/webserver.md
     - Server: installation/server.md
+    - Client: installation/client.md
     - Browser extensions:
       - installation/browser/chrome.md
       - installation/browser/edge.md

@@ -38,6 +38,8 @@
       
     
     
+      <link rel="stylesheet" href="../../../css/timeago.css">
+    
       <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
     
     <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
@@ -231,6 +233,22 @@
   
   
   
+    <li class="md-tabs__item">
+      <a href="../../../maintenance/update/" class="md-tabs__link">
+        Maintenance
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
     
 
   
@@ -243,6 +261,22 @@
     </li>
   
 
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../changelog/" class="md-tabs__link">
+        Changelog
+      </a>
+    </li>
   
 
       
@@ -332,8 +366,6 @@
         
           
         
-          
-        
       
       
         
@@ -381,14 +413,14 @@
       
       
         <label class="md-nav__link" for="__nav_2_2">
-          System requirements
+          Requirements
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="System requirements" data-md-level="2">
+      <nav class="md-nav" aria-label="Requirements" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_2">
           <span class="md-nav__icon md-icon"></span>
-          System requirements
+          Requirements
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -399,7 +431,7 @@
   
     <li class="md-nav__item">
       <a href="../../requirements/server/" class="md-nav__link">
-        Server
+        Application server
       </a>
     </li>
   
@@ -413,21 +445,7 @@
   
     <li class="md-nav__item">
       <a href="../../requirements/mssql/" class="md-nav__link">
-        MSSQL
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../requirements/client/" class="md-nav__link">
-        Client
+        MSSQL server
       </a>
     </li>
   
@@ -441,7 +459,21 @@
   
     <li class="md-nav__item">
       <a href="../../requirements/webserver/" class="md-nav__link">
-        Webserver
+        Web server
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../requirements/client/" class="md-nav__link">
+        Native client
       </a>
     </li>
   
@@ -462,7 +494,7 @@
   
     <li class="md-nav__item">
       <a href="../../server/" class="md-nav__link">
-        Server
+        Installation AdminClient
       </a>
     </li>
   
@@ -496,14 +528,14 @@
       
       
         <label class="md-nav__link" for="__nav_2_4">
-          Browser extensions
+          Browser
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Browser extensions" data-md-level="2">
+      <nav class="md-nav" aria-label="Browser" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_4">
           <span class="md-nav__icon md-icon"></span>
-          Browser extensions
+          Browser
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -611,20 +643,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../update/" class="md-nav__link">
-        Update
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -652,12 +670,64 @@
       
       
         <label class="md-nav__link" for="__nav_3">
+          Maintenance
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Maintenance" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Maintenance
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../maintenance/update/" class="md-nav__link">
+        Update
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
           FAQ
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="FAQ" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
+        <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
           FAQ
         </label>
@@ -672,7 +742,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
       
       
       
@@ -694,33 +764,19 @@
         <div class="md-nav__link md-nav__link--index ">
           <a href="../../../faq/security/">Security</a>
           
-            <label for="__nav_3_1">
+            <label for="__nav_4_1">
               <span class="md-nav__icon md-icon"></span>
             </label>
           
         </div>
       
       <nav class="md-nav" aria-label="Security" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_1">
+        <label class="md-nav__title" for="__nav_4_1">
           <span class="md-nav__icon md-icon"></span>
           Security
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../faq/security/made_in_germany/" class="md-nav__link">
-        Made in Germany
-      </a>
-    </li>
-  
-
             
           
             
@@ -743,8 +799,22 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../faq/security/made_in_germany/" class="md-nav__link">
+        IT security made in Germany
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../faq/security/pentest/" class="md-nav__link">
-        Pentest
+        Penetration tests
       </a>
     </li>
   
@@ -753,6 +823,70 @@
           
         </ul>
       </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../changelog/">Changelog</a>
+          
+            <label for="__nav_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Changelog" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Changelog
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../changelog/8-14-3-27962/" class="md-nav__link">
+        8.14.3.27962 - 7th July 2022
+      </a>
     </li>
   
 
@@ -832,7 +966,11 @@ The Firefox Add-on can be downloaded from the following link:
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 21, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-07-22T17:17:10+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-07-22</span>
+      
+        <br>
+        Created:
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-07-22T17:17:10+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-07-22</span>
       
     
   </small>
@@ -911,16 +1049,13 @@ The Firefox Add-on can be downloaded from the following link:
   
     
     
-    <a href="https://www.linkedin.com/company/mateso-gmbh/" target="_blank" rel="noopener" title="MATESO on LinkedIn" class="md-social__link">
+    <a href="https://www.linkedin.com/company/mateso-gmbh/" target="_blank" rel="noopener" title="MATESO GmbH on LinkedIn" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
     </a>
   
     
     
-      
-      
-    
-    <a href="https://twitter.com/matesogmbh" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+    <a href="https://twitter.com/matesogmbh" target="_blank" rel="noopener" title="MATESO GmbH on Twitter" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
     </a>
   
@@ -938,6 +1073,10 @@ The Firefox Add-on can be downloaded from the following link:
     
     
       <script src="../../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+        <script src="../../../js/timeago.min.js"></script>
+      
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
       
     
   </body>

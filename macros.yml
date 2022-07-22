@@ -1,0 +1,12 @@
+about:
+  company: MATESO GmbH
+  product: Password Safe
+  website: https://www.passwordsafe.com/
+
+support:
+  email: support@passwordsafe.de
+  url: https://www.passwordsafe.com/en/support/
+  new_request_url: https://support.passwordsafe.de/hc/en-us/requests/new
+
+license_server:
+  kis_url: https://license.passwordsafe.de/kis

@@ -1,0 +1,6 @@
+nav:
+  - Welcome: index.md
+  - installation
+  - maintenance
+  - FAQ: faq
+  - changelog

@@ -1,0 +1,5 @@
+nav:
+    - index.md
+    - requirements
+    - server.md
+    - browser

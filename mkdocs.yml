@@ -7,9 +7,10 @@ extra:
   generator: true
   social:
   - icon: fontawesome/brands/linkedin
-    name: MATESO on LinkedIn
+    name: MATESO GmbH on LinkedIn
     link: https://www.linkedin.com/company/mateso-gmbh/
   - icon: fontawesome/brands/twitter
+    name: MATESO GmbH on Twitter
     link: https://twitter.com/matesogmbh
 
 theme:
@@ -56,8 +57,19 @@ plugins:
   - search:
       prebuild_index: true
   - git-revision-date-localized:
-      enabled_if_env: CI
-      type: date
+      type: timeago
+      custom_format: "%d. %B %Y"
+      timezone: Europe/Berlin
+      locale: en
+      fallback_to_build_date: false
+      enable_creation_date: true
+      exclude:
+          - index.md
+      enabled: !ENV [CI, False]
+  - awesome-pages
+  - macros:
+      include_yaml:
+        - macros.yml
 
 markdown_extensions:
   - meta
@@ -73,25 +85,3 @@ markdown_extensions:
       permalink: ⚓︎
 copyright: Maintained with ❤️ by <a href='https://www.passwordsafe.com' target='_blank'>MATESO GmbH</a> and <a href='/contributors'>contributors</a>
 
-nav:
-  - Welcome: index.md
-  - Installation: 
-    - installation/index.md
-    - System requirements:
-      - Server: installation/requirements/server.md
-      - MSSQL: installation/requirements/mssql.md
-      - Client: installation/requirements/client.md
-      - Webserver: installation/requirements/webserver.md
-    - Server: installation/server.md
-    - Browser extensions:
-      - installation/browser/chrome.md
-      - installation/browser/edge.md
-      - installation/browser/firefox.md
-      - installation/browser/safari.md
-    - Update: installation/update.md
-  - FAQ:
-    - Security:
-      - faq/security/index.md
-      - Made in Germany: faq/security/made_in_germany.md
-      - Encryption: faq/security/encryption.md
-      - Pentest: faq/security/pentest.md

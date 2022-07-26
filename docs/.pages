@@ -1,6 +1,10 @@
 nav:
-  - Welcome: index.md
-  - installation
-  - maintenance
-  - FAQ: faq
-  - changelog
+    - Welcome:
+        - index.md
+        - Why Password Safe: why.md
+        - editions.md
+        - contribute.md
+    - installation
+    - maintenance
+    - FAQ: faq
+    - changelog

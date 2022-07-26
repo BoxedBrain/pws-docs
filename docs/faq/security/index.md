@@ -12,6 +12,6 @@ This is to be assessed as a reaction to a hazard, which could not be more concre
 
 Due to the rapid digital revolution, more and more focus is being placed on the topic of password security in particular. Passwords, which were still relatively safe 5 years ago, have to be put to the test again due to technical progress. Only randomly selected passwords with a corresponding number of digits can really defuse this problem. It is also important to ensure that these passwords are changed at predefined intervals.
 
-## The solutions of the MATESO Password Safe
+## The solution {{about.company}} {{about.product}}
 
 The safest passwords are still those that can be completely hidden from the users. Automatic entries allow users to work efficiently without knowing their passwords. By means of the most advanced methods of the Password Reset, these access codes can also be reset automatically at intervals that can be as short as required. There are also safety mechanisms which link access to systems to a release by those users with the required permissions, according to the double-check principle. All these routines are backed up by highly complex encryption methods. Regular penetration tests ensure that the software is specifically tested by independent experts for weaknesses in architecture as well as the correct use of state-of-the-art cryptographic technologies. Conclusion: Human misconduct in the handling of passwords must be reduced to a minimum by technically enforced specifications and workflows.

@@ -1,10 +1,10 @@
 # Installation
 
-The following pages will provide you with all the informations how to install the different Password Safe components.
+The following pages will provide you with all the information how to install the different {{about.product}} components.
 
 ## System landscape
 
-The following overview presents a basic production Password Safe system landscape. Version 8 allows use of several database servers across all sites. These are then synchronized using Microsoft SQL server tools. Any number of application servers can be made available for the client connection. This ensures load distribution, and allows work without significant latency. This technology offers enormous performance advantages, particularly in the case of installations that are spread across worldwide locations.
+The following overview presents a basic production {{about.product}} system landscape. Version 8 allows use of several database servers across all sites. These are then synchronized using Microsoft SQL server tools. Any number of application servers can be made available for the client connection. This ensures load distribution, and allows work without significant latency. This technology offers enormous performance advantages, particularly in the case of installations that are spread across worldwide locations.
 
 ![Image title](/assets/en/installation/system_landscape.png){ loading=lazy }
 
@@ -18,14 +18,14 @@ The application server is entirely responsible for the control of the business l
 
 ## Database server (data storage)
 
-Password Safe version 8 uses Microsoft SQL Server to store data due to its widespread use, and its ability to ensure high-performance access even in large and geographically scattered environments. Smaller installations may also use the free SQL Express version.
+{{about.product}} uses Microsoft SQL Server to store data due to its widespread use, and its ability to ensure high-performance access even in large and geographically scattered environments. Smaller installations may also use the free SQL Express version.
 
 ## Conclusion
 
 At least three servers are thus recommended:
 
 - Database server (MSSQL)
-- Application server (Password Safe services)
+- Application server ({{about.product}} services)
 - Web server (IIS, NginX, Apache 2)
 
 !!! danger "Recommendation"
@@ -39,7 +39,7 @@ At least three servers are thus recommended:
 
 ### Application server
 
-- Port 443 HTTPS for connection to MATESO license server (outgoing)
+- Port 443 HTTPS for connection to the {{about.company}} license server (outgoing)
 - Port 11011 TCP for communication with clients or web server IIS (incoming)
 - Port 11014 TCP for the backup service (usually does not need to be unlocked)
 - Port 11016 TCP for the Web services (incoming; only when using the WebClient)

@@ -27,14 +27,14 @@ At least two databases are created during installation:
 - The configuration database, which contains the settings for the application server
 - The vault database, which holds all information about users and secrets
 
-An MSSQL database is required for each Password Safe vault. Multiple databases can be run on one SQL instance. As Password Safe V8 enables the clean separation of all data via the authorization concept, a single MSSQL database is sufficient for most applications.
+An MSSQL database is required for each {{about.product}} vault. Multiple databases can be run on one SQL instance. As {{about.product}} V8 enables the clean separation of all data via the authorization concept, a single MSSQL database is sufficient for most applications.
 
 !!! danger "Be aware"
-    The databases must have the collation `Latin1_General_CI_AS`. If the SQL Server uses a different collation, Password Safe cannot create the database correctly. In this case, the database must be created manually on the server with the correct collation in order to subsequently link it to the AdminClient.
+    The databases must have the collation `Latin1_General_CI_AS`. If the SQL Server uses a different collation, {{about.product}} cannot create the database correctly. In this case, the database must be created manually on the server with the correct collation in order to subsequently link it to the AdminClient.
 
 ### Permissions
 
-A dedicated SQL user should be used for the Password Safe database conncection. The server admin (sa) may be used but is not recommended or necessary. The user requires the following rights:
+A dedicated SQL user should be used for the {{about.product}} database conncection. The server admin (sa) may be used but is not recommended or necessary. The user requires the following rights:
 
 - dbCreator: If the databases are created via the AdminClient, the user must have the dbCreator right.
 - dbOwner: If the databases are created manually on the MSSQL server and are only managed by the AdminClient, dbOwner rights are sufficient.

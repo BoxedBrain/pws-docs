@@ -3,7 +3,7 @@
 The performance is only dependent on the client to a small extent. The user’s settings are imported directly from the MSSQL database.
 
 !!! hint
-    You can use a software deployment to rollout Password Safe. We provide an MSI installer package for that purpose.
+    You can use a software deployment to rollout {{about.product}}. We provide an MSI installer package for that purpose.
 
  We recommend the following min. configuration, to ensure smooth operation:
 

@@ -1,6 +1,6 @@
 # Installation
 
-The following pages will provide you with all the informations how to install the different {{about.product}} components.
+The following pages will provide you with all the information how to install the different {{about.product}} components.
 
 ## System landscape
 

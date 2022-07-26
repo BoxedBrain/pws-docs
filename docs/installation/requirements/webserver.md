@@ -1,6 +1,6 @@
 # Webserver
 
-In principle, the Password Safe WebClient can be installed on all current web servers. For this purpose, a corresponding SSL certificate is required for the https connection. The WebClient should ideally have the same version as the Password Safe server.
+In principle, the {{about.product}} WebClient can be installed on all current web servers. For this purpose, a corresponding SSL certificate is required for the https connection. The WebClient should ideally have the same version as the {{about.product}} server.
 
 !!! note
     As every web server is individually installed and configured, detailed knowledge of the system being used is required. Our partners would be pleased to carry out the installation via consulting.
@@ -16,7 +16,7 @@ The WebClient requires the following ports:
 
 ## Supported webservers
 
-The Password Safe WebClient has been successfully tested on the following systems:
+The {{about.product}} WebClient has been successfully tested on the following systems:
 
 ### IIS
 

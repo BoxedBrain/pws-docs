@@ -4,7 +4,7 @@
 
 Our development team is constantly working on the further development of the software. This does not only involve fixing any problems but also primarily the development of new features to adapt the software as best as possible to the requirements of our customers. Therefore, it is recommended that you regularly install updates.
 
-The documentation always refers to the latest version available. If Password Safe deviates from the documentation (e.g. in appearance or also its functional scope), it makes sense to firstly update to the latest version.
+The documentation always refers to the latest version available. If {{about.product}} deviates from the documentation (e.g. in appearance or also its functional scope), it makes sense to firstly update to the latest version.
 
 !!! hint
     The update check on the server or the client can be used to easily install the latest version. The update check on the client must be activated in the settings for users beforehand. We recommend leaving the update check deactivated for normal users! Otherwise these users could independently attempt to install updates. Since a new client cannot connect to an old server, this results in the user not being able to log in.
@@ -40,10 +40,10 @@ Please simply use the access data that we sent to you by email to log in.
 
 ### Updating the AdminClient
 
-The AdminClient is simply installed on top of the existing installation. The password from the Admin Client should be made available at this point in any case. After the installation of the Admin Client, the database is only accessible when it is activated. If the password is only in the password safe, it should be temporarily stored at this point.
+The AdminClient is simply installed on top of the existing installation. The password from the Admin Client should be made available at this point in any case. After the installation of the Admin Client, the database is only accessible when it is activated. If the password is only in the {{about.product}}, it should be temporarily stored at this point.
 
 !!! hint
-    If the service has not been ended in advance, the installation wizard will give you the opportunity to do so. If the service is still not ended at this stage, the computer will then need to be restarted. It is thus recommended that the Password Safe services are ended before the update.
+    If the service has not been ended in advance, the installation wizard will give you the opportunity to do so. If the service is still not ended at this stage, the computer will then need to be restarted. It is thus recommended that the {{about.product}} services are ended before the update.
 
 Further information on the installation wizard can be found in the section [Installation of the AdminClient](/faq/installAdminClient){target=_blank}.
 

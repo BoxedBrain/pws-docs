@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# Password Safe documentation
+# {{about.product}} documentation
 
 ![Welcome](/assets/images/start-page.svg){align=right width=30% loading=lazy}
 
-Welcome to the official Password Safe documentation! ✌️
+Welcome to the official {{about.product}} documentation! ✌️
 
 This documentation is continuous growing and open source!
 Feel free to contribute by opening a pull request [here](https://github.com/BoxedBrain/pws-docs){target=_blank} or by clicking the pencil button in the upper right corner on the page you want to edit.

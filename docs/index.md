@@ -1,18 +1,17 @@
 ---
 hide:
-  - navigation
   - toc
 ---
 
-# {{about.product}} documentation
+# Password Safe documentation
 
 ![Welcome](/assets/images/start-page.svg){align=right width=30% loading=lazy}
 
-Welcome to the official {{about.product}} documentation! ✌️
+Welcome to the official {{about.product}} documentation! :man_raising_hand:
 
-This documentation is continuous growing and open source!
-Feel free to contribute by opening a pull request [here](https://github.com/BoxedBrain/pws-docs){target=_blank} or by clicking the pencil button in the upper right corner on the page you want to edit.
+This documentation is continuous growing due to your help!  
+Feel free to also contribute. Check out [how](/contribute).
 
 ## Newsletter
 
-To always stay up to date, we recommend you to subscribe to our [newsletter](https://www.passwordsafe.com/en/newsletter-registration/){target=_blank}.
+To always stay up to date with our lates product news, we recommend you to subscribe our 📰 [newsletter](https://www.passwordsafe.com/en/newsletter-registration/){target=_blank}.

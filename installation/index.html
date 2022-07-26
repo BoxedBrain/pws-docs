@@ -436,7 +436,7 @@
 <h2 id="application-server-business-logic">Application server (business logic)<a class="headerlink" href="#application-server-business-logic" title="Permanent link">⚓︎</a></h2>
 <p>The application server is entirely responsible for the control of the business logic. This server only ever delivers the data for which the corresponding permissions are available. The multi-tier architecture described at the beginning allows the use of several application servers and ensures efficient load distribution.</p>
 <h2 id="database-server-data-storage">Database server (data storage)<a class="headerlink" href="#database-server-data-storage" title="Permanent link">⚓︎</a></h2>
-<p>Password Safe version 8 uses Microsoft SQL Server to store data due to its widespread use, and its ability to ensure high-performance access even in large and geographically scattered environments. Smaller installations may also use the free SQL Express version.</p>
+<p>Password Safe uses Microsoft SQL Server to store data due to its widespread use, and its ability to ensure high-performance access even in large and geographically scattered environments. Smaller installations may also use the free SQL Express version.</p>
 <h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">⚓︎</a></h2>
 <p>At least three servers are thus recommended:</p>
 <ul>
@@ -455,7 +455,7 @@
 </ul>
 <h3 id="application-server">Application server<a class="headerlink" href="#application-server" title="Permanent link">⚓︎</a></h3>
 <ul>
-<li>Port 443 HTTPS for connection to MATESO license server (outgoing)</li>
+<li>Port 443 HTTPS for connection to the MATESO GmbH license server (outgoing)</li>
 <li>Port 11011 TCP for communication with clients or web server IIS (incoming)</li>
 <li>Port 11014 TCP for the backup service (usually does not need to be unlocked)</li>
 <li>Port 11016 TCP for the Web services (incoming; only when using the WebClient)</li>
@@ -478,7 +478,7 @@
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-07-22T18:06:58+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-07-22</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-07-26T11:36:08+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-07-26</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-06-10T10:32:18+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-06-10</span>

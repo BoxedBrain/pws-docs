@@ -71,6 +71,7 @@ plugins:
       on_error_fail: !ENV [CI, false]
       include_yaml:
         - macros.yml
+  - glightbox
 
 markdown_extensions:
   - meta

@@ -1,12 +1,16 @@
+# Define macros here
+# You can use them like that in your markdown file:
+# {{about.company}}
+#
+# For more syntax or information visit:
+# https://mkdocs-macros-plugin.readthedocs.io/
+
 about:
   company: MATESO GmbH
   product: Password Safe
+
+url:
   website: https://www.passwordsafe.com/
-
-support:
-  email: support@passwordsafe.de
-  url: https://www.passwordsafe.com/en/support/
-  new_request_url: https://support.passwordsafe.de/hc/en-us/requests/new
-
-license_server:
-  kis_url: https://license.passwordsafe.de/kis
+  customer_portal: https://license.passwordsafe.de/kis
+  support: https://www.passwordsafe.com/en/support/
+  pricing: https://www.passwordsafe.com/en/pricing/

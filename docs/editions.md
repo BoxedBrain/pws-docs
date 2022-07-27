@@ -1,7 +1,7 @@
 # Choose your right edition
 
 !!! hint
-    For pricing information or the full feature matrix click [HERE]({{url.pricing}}).
+    You might also want to check out our [pricing]({{url.pricing}}) and [feature matrix]({{url.feature_matrix}}).
 
 ## Professional
 

@@ -34,6 +34,7 @@ By default, all added users or roles receive only the “Read” permission on t
 ![setting all permissions example](/assets/en/permission/manual-setting-of-permissions/manual-setting-of-permissions-4.png){ loading=lazy }
 
 ## Transferring permissions
+
 A simple right-click on a user can be used to copy and transfer permission configurations of users or roles to others in the context menu. In this context, the use of permission templates is also very practical. In the “Template” area of ​​the ribbon, you can save configured permissions, including all users, and reuse them for other records.
 
 ![preset menu](/assets/en/permission/manual-setting-of-permissions/manual-setting-of-permissions-5.png){ loading=lazy }
@@ -41,9 +42,11 @@ A simple right-click on a user can be used to copy and transfer permission confi
 The transfer of permissions and their reuse can be an important building block to create and maintain entitlement integrity. This method cannot rule out misconfigurations, but it will minimize the risk significantly. Of course, the correct configuration of these templates is a prerequisite.
 
 ## The add permission
+
 The “add" permission holds a special position in the authorization concept. This permission controls whether a user/role is permitted e.g. to create a new record within an organisational structure. Consequently, this permission can only be set in the organisational structure module. [More…]({{url.placeholder}})
 
 ## The owner permission
+
 The "owner" permission can be set for a user. This permission is more of **a guarantee**. Once assigned, there is no way to remove the user or role. This is only possible by the user or the role itself, as well as by users with the permission “Is database administrator”.
 
 ![owner permission](/assets/en/permission/manual-setting-of-permissions/manual-setting-of-permissions-6.png){ loading=lazy }

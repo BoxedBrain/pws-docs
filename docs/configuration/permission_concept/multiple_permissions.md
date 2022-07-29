@@ -39,10 +39,11 @@ To add a permission, a user or role is selected first in the ribbon under **Sear
 
 If you want to remove permissions, it is also necessary to firstly add the user or the desired role to be edited. Clicking on **Reduce permissions** now means that permissions will be removed. This is indicated by the :material-minus-circle-outline: symbol. The permissions to be removed are then selected.
 
-!!! note 
+!!! note
     If the **read** permission is to be removed for a user or role, the user will be completely removed from the permissions.
 
 ## Examples
+
 In the following example, Mr. Steiner receives read permissions to all selected records. In contrast, Mr. Brewery receives all permissions:
 
 ![PLACEHOLDER](/assets/en/permission/multiple_editing-of-permissions/multiple-editing-of-permissions-3.png){ loading=lazy }
@@ -80,7 +81,7 @@ It is possible to select whether the affected records are skipped or whether the
 
 ![PLACEHOLDER](/assets/en/permission/multiple_editing-of-permissions/multiple-editing-of-permissions-9.png){ loading=lazy }
 
-!!! danger "Be Aware
+!!! danger "Be Aware"
     The removal of seals and password masking cannot be reversed!
 
 !!! note

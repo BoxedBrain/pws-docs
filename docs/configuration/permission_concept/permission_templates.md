@@ -7,4 +7,4 @@ Once they have been configured, permissions can be constantly reused. The functi
 !!! note
     When saving templates, always select a name that will also allow it to be safely differentiated from other templates if you have a large number of permission templates.
 
-Nevertheless, the use of permission templates merely reduces the amount of work and still envisages the manual setting of permissions. Automatic process for the issuing of permissions also exist in Password Safe and will be covered in the section ["Predefining permissions"]({{url.placeholder}}) and also under ["Inheritance from organisational structures"]({{url.placeholder}}).
+Nevertheless, the use of permission templates merely reduces the amount of work and still envisages the manual setting of permissions. Automatic process for the issuing of permissions also exist in Password Safe and will be covered in the section ["Predefining rights"]({{url.placeholder}}) and also under ["Inheritance from organisational structures"]({{url.placeholder}}).

@@ -16,7 +16,7 @@ Whether this form of inheritance should be applied is defined via the [settings]
 Inherit permissions for new objects (without rights template)
 This setting is relevant for newly created records.
 
-
+![PLACEHOLDER](/assets/en/permission/automated-setting-of-permissions/automated-setting-of-permissions-1.png){ loading=lazy }
 
 The following values can be configured:
 
@@ -27,6 +27,7 @@ Organizational unit and user: As well as inheriting permissions for organization
 
 Existing passwords inherit changes to the permissions for organizational units
 
+![PLACEHOLDER](/assets/en/permission/automated-setting-of-permissions/automated-setting-of-permissions-1.png){ loading=lazy }
 
 This option means that changes to permissions for an organizational unit will be inherited by all passwords for this organizational unit. This setting is active by default. When inheriting permissions, a dialogue will be displayed that offers you the following options:
 
@@ -44,11 +45,11 @@ The permissions for the organizational unit “marketing” are shown below:
 
 A new password is now created in the organizational unit “marketing”.
 
-
+![PLACEHOLDER](/assets/en/permission/automated-setting-of-permissions/automated-setting-of-permissions-1.png){ loading=lazy }
 
 It is important that no preset is defined for this organizational unit. The permissions for the record just created are now shown.
 
-
+![PLACEHOLDER](/assets/en/permission/automated-setting-of-permissions/automated-setting-of-permissions-1.png){ loading=lazy }
 
 Conclusion
 The permissions for the “storage location” are simply used when creating new objects. Two conditions apply here:
@@ -56,4 +57,3 @@ The permissions for the “storage location” are simply used when creating new
 The value “organizational unit” must be selected in the settings for the inheritance of permissions
 There must be no predefined right for the affected organizational structure
 This process is illustrated in the following diagram:
-

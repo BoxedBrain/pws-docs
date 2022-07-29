@@ -1,9 +1,10 @@
 # Permission concept and protective mechanisms
 
 ## What is the permission concept?
- With {{about.product}} version 8 we provide the right solution to all conceivable demands placed on it with regards to permission management. [Roles]({{url.placeholder}}) are a great way to efficiently manage multiple users without losing the overview. We've created multiple methods to [manually]({{url.placeholder}}) or [automatically]({{url.placeholder}}) manage your permissions.
- 
- Alongside the definition of [manual]({{url.placeholder}}) and [automatic]({{url.placeholder}}) setting of permissions, the (optional) setting of [protective mechanisms]({{url.placeholder}}) forms part of the authorization concept. The protective mechanisms are thus downstream of the permissions. The interrelationships between all of these elements are illustrated in the following diagram.
+
+With {{about.product}} version 8 we provide the right solution to all conceivable demands placed on it with regards to permission management. [Roles]({{url.placeholder}}) are a great way to efficiently manage multiple users without losing the overview. We've created multiple methods to [manually]({{url.placeholder}}) or [automatically]({{url.placeholder}}) manage your permissions.
+
+Alongside the definition of [manual]({{url.placeholder}}) and [automatic]({{url.placeholder}}) setting of permissions, the (optional) setting of [protective mechanisms]({{url.placeholder}}) forms part of the authorization concept. The protective mechanisms are thus downstream of the permissions. The interrelationships between all of these elements are illustrated in the following diagram.
 
 ![explanation of the authorization concept](/assets/en/permission/permission_concept_1.png){ loading=lazy }
 
@@ -15,6 +16,7 @@
     The configuration of visibility is a technical part of the permissions process. However, this mechanism has a “protective character” and is thus listed under protective mechanisms.
 
 ## Basic mechanics of the permission concept
+
 These three pillars are irrevocable and always impact permissions of every type.
 
 ### The three pillars of the permission concept
@@ -40,7 +42,7 @@ It is obvious to proceed with the organization of accesses using the concept of 
 
 ### 2. Membership in roles
 
-The key point is membership in a role. If an employee can use the authorizations according to the roles assigned to him, * he must be a member of the role *. Only members see the records that have been authorized for the role.
+The key point is membership in a role. If an employee can use the authorizations according to the roles assigned to him, **he must be a member of the role**. Only members see the records that have been authorized for the role.
 
 ![explanation role membership](/assets/en/permission/permission_concept_3.png){ loading=lazy }
 

@@ -59,7 +59,6 @@ The admin user in {{about.product}} must pay particular attention to the interpl
 - **User 1** is a member of the role, and is therefore authorized for all records that are assigned to the role. However, it has only “read rights” for the role itself. This means, it can see the role, but cannot “Edit, move, or delete” it.
 - **User 2** has all rights for the role. It can add additional users to the role by means of “authorize”. The crucial point, however, is that it is not a member of the role. It cannot, therefore, see any records for which the role is authorized.
 
-
 In practice, the first user would be a classic user that is assigned, for example, to the Sales role by the administrators, and can view the records accordingly. The second user could be one of those administrators. This user has extensive rights for the role. It can edit it, and add users to it. However, it cannot see any data that is assigned to sales. It lacks membership in the role.
 
 !!! note

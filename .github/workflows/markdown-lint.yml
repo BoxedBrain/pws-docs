@@ -23,4 +23,4 @@ jobs:
         uses: actions/setup-node@master
       - run: |
           npm ci
-          node_modules/.bin/markdownlint '**/*.md' --ignore node_modules --disable MD013
+          node_modules/.bin/markdownlint --config .markdownlint.yml .

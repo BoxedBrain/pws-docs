@@ -4,8 +4,7 @@ on:
   push:
     branches: [master, main]
   pull_request:
-    types:
-      - opened
+    types: [opened, edited, reopened, synchronize, ready_for_review, review_requested]
 
 permissions: 
   contents: read
@@ -23,4 +22,4 @@ jobs:
         uses: actions/setup-node@master
       - run: |
           npm ci
-          node_modules/.bin/markdownlint --config .markdownlint.yml .
+          npm run lint

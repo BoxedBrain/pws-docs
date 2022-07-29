@@ -60,7 +60,7 @@ The admin user in {{about.product}} must pay particular attention to the interpl
 
 In practice, the first user would be a classic user that is assigned, for example, to the Sales role by the administrators, and can view the records accordingly. The second user could be one of those administrators. This user has extensive rights for the role. It can edit it, and add users to it. However, it cannot see any data that is assigned to sales. It lacks membership in the role.
 
-!!! note 
+!!! note
 
     As a member of a role, it must have at least the “read” right for the role!
 

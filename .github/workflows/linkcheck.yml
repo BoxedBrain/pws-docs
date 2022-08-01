@@ -10,6 +10,6 @@ on:
 
 jobs:
   linkcheck:
-    uses: filiph/linkcheck@2.0.23
+    uses: filiph/linkcheck@v2.0.15+1
     with:
       arguments: https://docs.pwlab.de

@@ -15,4 +15,4 @@ jobs:
     - name: Check links
       uses: filiph/linkcheck@2.0.23
       with:
-        arguments: --external --show-redirects https://docs.pwlab.de
+        arguments: https://docs.pwlab.de #--show-redirects --external

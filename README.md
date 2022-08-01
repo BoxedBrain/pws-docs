@@ -1,5 +1,7 @@
 # Password Safe Documentation
 
+[![CodeFactor](https://www.codefactor.io/repository/github/boxedbrain/pws-docs/badge)](https://www.codefactor.io/repository/github/boxedbrain/pws-docs)
+
 This is the official documentation page for Password Safe v8!  
   
 Community improvements are encouraged! Just click the little pencil mark on the

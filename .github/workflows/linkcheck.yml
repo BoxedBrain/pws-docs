@@ -12,4 +12,4 @@ jobs:
   linkcheck:
     uses: filiph/linkcheck@2.0.23
     with:
-      arguments: -i .linkcheck
+      arguments: https://docs.pwlab.de

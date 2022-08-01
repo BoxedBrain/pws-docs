@@ -5,6 +5,7 @@ nav:
         - editions.md
         - contribute.md
     - installation
+    - configuration
     - maintenance
     - FAQ: faq
     - changelog

@@ -22,4 +22,4 @@ which are the essential features for large corporations to ensure highest securi
 
 ## Managed Service
 
-The Managed Service Edition is designed for small companies with a low user base and no IT-infrastructure.
+The Managed Service Edition is designed for small companies with a small user base and no IT-infrastructure.

@@ -11,8 +11,11 @@ jobs:
   macrocheck:
     runs-on: ubuntu-latest
     steps:
-    - name: Check for "MATESO"
-      run: bash grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md,contributors.md} -rnw /mnt/c/git/pws-docs -e "MATESO"
+      - name: Checkout
+        uses: actions/checkout@v3
 
-    - name: Check for "Password Safe"
-      run: bash grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md} -rnw /mnt/c/git/pws-docs -e "Password Safe"
+      - name: Check for "MATESO"
+        run: bash grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md,contributors.md} -rnw ${GITHUB_WORKSPACE} -e "MATESO"
+
+      - name: Check for "Password Safe"
+        run: bash grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md} -rnw ${GITHUB_WORKSPACE} -e "Password Safe"

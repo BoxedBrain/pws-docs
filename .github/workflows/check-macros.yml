@@ -33,7 +33,7 @@ jobs:
         id: find-string
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            (grep "MATESO" $file || exit 0 && exit 123;)
+            (grep "MATESO" $file || exit 0 && echo $file && exit 123;)
           done
 
 #      - name: Check for "MATESO"

@@ -12,13 +12,13 @@ To login to Password Safe, after entering the username a popup opens for the aut
 
 ### Linking Azure AD
 
-Below you will find instructions on how to connect Azure AD to Password Safe. In the Azure portal, go to the management page of your Azure Active Directory. Use an account with administrative permissions for this. During this, login to Password Safe with an account that has the user right “Display organisational structure module“, “Can manage Azure AD profiles", and “Can create new Azure AD profiles" enabled.
+Below you will find instructions on how to connect Azure AD to Password Safe. In the Azure portal, go to the management page of your Azure Active Directory. Use an account with administrative permissions for this. During this, login to Password Safe with an account that has the user right "Display organisational structure module", "Can manage Azure AD profiles", and "Can create new Azure AD profiles" enabled.
 
 ## Setup
 
 ### New Azure application
 
-Login to the [Azure portal]({{url.azure_portal}}) and go to the management page of your Azure Active Directory. 
+Login to the [Azure portal]({{url.azure_portal}}) and go to the management page of your Azure Active Directory.
 
 !!! note
     You need an account with administrative permissions
@@ -56,7 +56,7 @@ Connect-AzureAD
     - Can create new Azure AD profiles
 
 - Navigate to the module "Organisational structure"
-- In the toolbar, click on “Manage profiles" in the category “Azure AD"
+- In the toolbar, click on "Manage profiles" in the category "Azure AD"
 - Create the profile with your information
 - Insert the `Tenant ID` and the `Application ID`
 - As soon as the profile has been saved, a popup opens for generating a token
@@ -65,11 +65,11 @@ Connect-AzureAD
 
 ### Azure provisioning configuration
 
-Fill the fields “Tenant URL" and “Secret Token" with the information provided by Password Safe
-Click “Test Connection"
-When the test has been successful, click on “Save" at the top of the page
-Back on the “Provisioning" page, click “Start provisioning“
-In the settings of the provisioning, check if “Provisioning Status“ is set to “On"
+Fill the fields "Tenant URL" and "Secret Token" with the information provided by Password Safe
+Click "Test Connection"
+When the test has been successful, click on "Save" at the top of the page
+Back on the "Provisioning" page, click "Start provisioning"
+In the settings of the provisioning, check if "Provisioning Status" is set to "On"
 All allocated users and groups are created in Password Safe now
 
 !!! hint
@@ -84,30 +84,29 @@ All allocated users and groups are created in Password Safe now
 To enable the Azure login for your users, a few more steps are required:
 
 - Navigate to the Overview page of your Azure AD
-- Navigate to “App registrations“
-- If no application is displayed, click “All applications"
-- Click on “MATESO Password Safe" and navigate to “Authentication“
-- Click on “Add a platform“, select “Mobile and desktop applications“ and configure the required URIs:
+- Navigate to "App registrations"
+- If no application is displayed, click "All applications"
+- Click on "MATESO Password Safe" and navigate to "Authentication"
+- Click on "Add a platform", select "Mobile and desktop applications" and configure the required URIs:
 
-|          Client          |                                    URI                                   |
-|:------------------------:|:------------------------------------------------------------------------:|
-| WebClient                | https://`WEBCLIENT_URL`/authentication/login-via-oidc                    |
-| FullClient & SSO Agent   | https://login.microsoftonline.com/common/oauth2/nativeclient             |
-| iOS & Android            | psrmobile://auth                                                         |
-| Google Chrome Extension  | https://bpjfchmapbmjeklgmlkabfepflgfckip.chromiumapp.org                 |
-| Microsoft Edge Extension | https://ahdfobpkkckhdhbmnpjehdkepaddfhek.chromiumapp.org                 |
-| Firefox Extension        | https://28c91153e2d5b36394cfb1543c897e447d0f1017.extensions.allizom.org/ |
+|          Client          |                                    URI                                     |
+|:------------------------:|:--------------------------------------------------------------------------:|
+| WebClient                | `https://`WEBCLIENT_URL`/authentication/login-via-oidc`                    |
+| FullClient & SSO Agent   | `https://login.microsoftonline.com/common/oauth2/nativeclient`             |
+| iOS & Android            | `psrmobile://auth`                                                         |
+| Google Chrome Extension  | `https://bpjfchmapbmjeklgmlkabfepflgfckip.chromiumapp.org`                 |
+| Microsoft Edge Extension | `https://ahdfobpkkckhdhbmnpjehdkepaddfhek.chromiumapp.org`                 |
+| Firefox Extension        | `https://28c91153e2d5b36394cfb1543c897e447d0f1017.extensions.allizom.org/` |
 
 !!! danger "Be aware"
     In order to use Azure login with the desktop client, [WebView2]({{url.webview2}}) from Microsoft must be installed on the client device.
-
 
 ### Set API permissions
 
 Finally, the API permissions for the Azure API have to be set, so the login to Password Safe can be performed successfully.
 
-Navigate to “API permissions" and click “Add a permission“
-Select “Microsoft Graph" and then “Delegated permissions"
-Set the checkboxes for “openid" and “profile" just under “OpenId permissions"
-Click on “Add permissions"
-Click on “Grant admin consent for YOUR_AD_NAME"
+Navigate to "API permissions" and click "Add a permission"
+Select "Microsoft Graph" and then "Delegated permissions"
+Set the checkboxes for "openid" and "profile" just under "OpenId permissions"
+Click on "Add permissions"
+Click on "Grant admin consent for YOUR_AD_NAME"

@@ -38,6 +38,7 @@ jobs:
 
       - name: List all matches
         run: |
+          echo "${{ steps.find-string.outputs.resultArray }} matching files found!"
           echo ${{ steps.find-string.outputs.resultArray }}
 
 #      - name: Check for "MATESO"

@@ -26,7 +26,7 @@ jobs:
       - name: List all changed files
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo "$file was changed"
+            echo $file
           done
 
       - name: Find String
@@ -38,9 +38,7 @@ jobs:
 
       - name: List all matches
         run: |
-          for file in ${{ steps.find-string.outputs.resultArray }}; do
-            echo "$file does not use macros!"
-          done
+          echo ${{ steps.find-string.outputs.resultArray }}
 
 #      - name: Check for "MATESO"
 #        run: grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md,contributors.md} -rnw ${GITHUB_WORKSPACE} -e 'MATESO'

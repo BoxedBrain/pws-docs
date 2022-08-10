@@ -30,9 +30,17 @@ jobs:
           done
 
       - name: Find String
+        id: find-string
         uses: nguyenvanuyn96/str-find-action@master
         with:
           find: "MATESO"
+          include: ${{ steps.changed-files.outputs.all_changed_files }}
+
+      - name: List all matches
+        run: |
+          for file in ${{ steps.find-string.outputs.resultArray }}; do
+            echo "$file does not use macros!"
+          done
 
 #      - name: Check for "MATESO"
 #        run: grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md,contributors.md} -rnw ${GITHUB_WORKSPACE} -e 'MATESO'

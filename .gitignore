@@ -18,5 +18,15 @@ pip-delete-this-directory.txt
 venv/
 ENV/
 
+# PowerShell
+*.ps1
+*.psm1
+*.psd1
+*.pssc
+*.psrc
+*.psxml
+*.cdxml
+
 # MkDocs documentation
 site/
+

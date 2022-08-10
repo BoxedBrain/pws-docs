@@ -4,7 +4,7 @@
 
 The aim of organizational structures is to reflect the hierarchies and dependencies amongst employees that exist in a company. Permissions are granted to these structures as usual via the ribbon. Further information on this subject can be found in the section [“Permissions for organisational structures”]({{url.placeholder}}). As a specific authorization concept is generally already used within organizational structures, this is also used as the basis for further permissions. This form of inheritance is technically equivalent to granting permissions based on **affiliations to a folder**. When creating a new record, the record receives the permissions in accordance with the defined permissions for the organizational unit.
 
-![PLACEHOLDER](/assets/en/permission/automated-setting-of-permissions/automated-setting-of-permissions-1.png){ loading=lazy }
+![explanation of authorization](/assets/en/permission/inheritance/inheritance-1.png){ loading=lazy }
 
 ## Relevant user settings
 
@@ -16,7 +16,7 @@ Whether this form of inheritance should be applied is defined via the [settings]
 Inherit permissions for new objects (without rights template)
 This setting is relevant for newly created records.
 
-![PLACEHOLDER](/assets/en/permission/automated-setting-of-permissions/automated-setting-of-permissions-1.png){ loading=lazy }
+![setting inherit permission](/assets/en/permission/inheritance/inheritance-2.png){ loading=lazy }
 
 The following values can be configured:
 
@@ -27,7 +27,7 @@ Organizational unit and user: As well as inheriting permissions for organization
 
 Existing passwords inherit changes to the permissions for organizational units
 
-![PLACEHOLDER](/assets/en/permission/automated-setting-of-permissions/automated-setting-of-permissions-1.png){ loading=lazy }
+![setting inherit from ou to password](/assets/en/permission/inheritance/inheritance-3.png){ loading=lazy }
 
 This option means that changes to permissions for an organizational unit will be inherited by all passwords for this organizational unit. This setting is active by default. When inheriting permissions, a dialogue will be displayed that offers you the following options:
 
@@ -41,19 +41,22 @@ This example shows the creation of a new record in the organizational structure 
 
 The permissions for the organizational unit “marketing” are shown below:
 
-![PLACEHOLDER](/assets/en/permission/automated-setting-of-permissions/automated-setting-of-permissions-1.png){ loading=lazy }
+![example permissions](/assets/en/permission/inheritance/inheritance-4.png){ loading=lazy }
 
 A new password is now created in the organizational unit “marketing”.
 
-![PLACEHOLDER](/assets/en/permission/automated-setting-of-permissions/automated-setting-of-permissions-1.png){ loading=lazy }
+![picture new password without preset](/assets/en/permission/inheritance/inheritance-5.png){ loading=lazy }
 
 It is important that no preset is defined for this organizational unit. The permissions for the record just created are now shown.
 
-![PLACEHOLDER](/assets/en/permission/automated-setting-of-permissions/automated-setting-of-permissions-1.png){ loading=lazy }
+![example permissions](/assets/en/permission/inheritance/inheritance-6.png){ loading=lazy }
 
-Conclusion
+## Conclusion
+
 The permissions for the “storage location” are simply used when creating new objects. Two conditions apply here:
 
 The value “organizational unit” must be selected in the settings for the inheritance of permissions
-There must be no predefined right for the affected organizational structure
+There must be no [predefined right]({{url.placeholder}}) for the affected organizational structure
 This process is illustrated in the following diagram:
+
+![picture diagram ](/assets/en/permission/inheritance/inheritance-7.png){ loading=lazy }

@@ -27,7 +27,7 @@ The search [filter]({{url.placeholder}}) opens in a separate tab and can be conf
 
 **Multiple selection** is also enabled. It allows to add several users via the Windows standard Ctrl/Shift + left mouse button.
 
-## Set and revoke permissions
+## Set and remove permissions
 
 By default, all added users or roles receive only the “Read” permission on the record. The “Read” permission at the beginning is sufficient to view the fields of the data record and to use the password. "Write" permission allows you to edit a data record. **The permission “Authorize” is necessary to authorize other users to the record**. This is also a requirement for the [configuration of a seal]({{url.placeholder}}).
 

@@ -1,0 +1,5 @@
+nav:
+    - visibility.md
+    - temporary_permissions.md
+    - password_masking.md
+    - seals

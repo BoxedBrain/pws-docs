@@ -8,7 +8,7 @@
 <meta content="MATESO GmbH" name="author"/>
 <link href="../../../assets/favicon.svg" rel="icon"/>
 <meta content="mkdocs-1.3.1, mkdocs-material-8.3.9" name="generator"/>
-<title>Application server - Password Safe Documentation</title>
+<title>Azure Active Directory Services - Password Safe Documentation</title>
 <link href="../../../assets/stylesheets/main.1d29e8d0.min.css" rel="stylesheet"/>
 <link href="../../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -24,7 +24,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#application-server">
+<a class="md-skip" href="#azure-active-directory-services">
           Skip to content
         </a>
 </div>
@@ -48,7 +48,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Application server
+              Azure Active Directory Services
             
           </span>
 </div>
@@ -117,12 +117,12 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../../">
+<a class="md-tabs__link" href="../../../installation/">
         Installation
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../configuration/directory_services/azure/">
+<a class="md-tabs__link md-tabs__link--active" href="./">
         Configuration
       </a>
 </li>
@@ -199,10 +199,10 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../../">Installation</a>
+<a href="../../../installation/">Installation</a>
 <label for="__nav_2">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -213,8 +213,8 @@
           Installation
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" id="__nav_2_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" id="__nav_2_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2_2">
           Requirements
           <span class="md-nav__icon md-icon"></span>
@@ -225,98 +225,23 @@
           Requirements
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          Application server
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../installation/requirements/server/">
         Application server
       </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#server-configuration">
-    Server configuration
-  </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#firewall-ports">
-    Firewall / Ports
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#required-users">
-    Required users
-  </a>
-<nav aria-label="Required users" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#service-user">
-    Service user
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#backup-service-user">
-    Backup service user
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#user-for-the-sql-configuration-instance">
-    User for the SQL configuration instance
-  </a>
-<nav aria-label="User for the SQL configuration instance" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#configuration-examples">
-    Configuration examples
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#powershell-permissions">
-    PowerShell permissions
-  </a>
-<nav aria-label="PowerShell permissions" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#set-policy">
-    Set policy
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#verify-policy">
-    Verify policy
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../mssql/">
+<a class="md-nav__link" href="../../../installation/requirements/mssql/">
         MSSQL server
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../webserver/">
+<a class="md-nav__link" href="../../../installation/requirements/webserver/">
         Web server
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../client/">
+<a class="md-nav__link" href="../../../installation/requirements/client/">
         Native client
       </a>
 </li>
@@ -324,12 +249,12 @@
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../server/">
+<a class="md-nav__link" href="../../../installation/server/">
         Installation AdminClient
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../client/">
+<a class="md-nav__link" href="../../../installation/client/">
         Installation Client
       </a>
 </li>
@@ -346,22 +271,22 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../browser/chrome/">
+<a class="md-nav__link" href="../../../installation/browser/chrome/">
         Google Chrome
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../browser/edge/">
+<a class="md-nav__link" href="../../../installation/browser/edge/">
         Microsoft Edge
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../browser/firefox/">
+<a class="md-nav__link" href="../../../installation/browser/firefox/">
         Mozilla Firefox
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../browser/safari/">
+<a class="md-nav__link" href="../../../installation/browser/safari/">
         Safari
       </a>
 </li>
@@ -371,8 +296,8 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3">
           Configuration
           <span class="md-nav__icon md-icon"></span>
@@ -383,10 +308,10 @@
           Configuration
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" id="__nav_3_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" id="__nav_3_1" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../../../configuration/directory_services/">Directory services</a>
+<a href="../">Directory services</a>
 <label for="__nav_3_1">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -397,10 +322,10 @@
           Directory services
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_1" id="__nav_3_1_1" type="checkbox"/>
-<div class="md-nav__link md-nav__link--index">
-<a href="../../../configuration/directory_services/azure/">Azure Active Directory</a>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_1" id="__nav_3_1_1" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index md-nav__link--active">
+<a href="./">Azure Active Directory</a>
 <label for="__nav_3_1_1">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -412,7 +337,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../configuration/directory_services/azure/faq/">
+<a class="md-nav__link" href="faq/">
         Azure Active Directory Services FAQ
       </a>
 </li>
@@ -425,7 +350,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" id="__nav_3_2" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../../../configuration/permission_concept/">Permission concept</a>
+<a href="../../permission_concept/">Permission concept</a>
 <label for="__nav_3_2">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -437,27 +362,27 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../configuration/permission_concept/automated_permissions/">
+<a class="md-nav__link" href="../../permission_concept/automated_permissions/">
         Automated setting of permissions
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../configuration/permission_concept/inheritance/">
+<a class="md-nav__link" href="../../permission_concept/inheritance/">
         Inheritance from organizational structures
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../configuration/permission_concept/manual_permissions/">
+<a class="md-nav__link" href="../../permission_concept/manual_permissions/">
         Manual setting of permissions
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../configuration/permission_concept/multiple_permissions/">
+<a class="md-nav__link" href="../../permission_concept/multiple_permissions/">
         Multiple editing of permissions
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../configuration/permission_concept/permission_templates/">
+<a class="md-nav__link" href="../../permission_concept/permission_templates/">
         Permission templates
       </a>
 </li>
@@ -571,62 +496,53 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#server-configuration">
-    Server configuration
+<a class="md-nav__link" href="#introduction">
+    Introduction
   </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#firewall-ports">
-    Firewall / Ports
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#required-users">
-    Required users
-  </a>
-<nav aria-label="Required users" class="md-nav">
+<nav aria-label="Introduction" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#service-user">
-    Service user
+<a class="md-nav__link" href="#differences-to-the-ldap-connection">
+    Differences to the LDAP connection
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#backup-service-user">
-    Backup service user
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#user-for-the-sql-configuration-instance">
-    User for the SQL configuration instance
-  </a>
-<nav aria-label="User for the SQL configuration instance" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#configuration-examples">
-    Configuration examples
+<a class="md-nav__link" href="#linking-azure-ad">
+    Linking Azure AD
   </a>
 </li>
 </ul>
 </nav>
 </li>
-</ul>
-</nav>
-</li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#powershell-permissions">
-    PowerShell permissions
+<a class="md-nav__link" href="#setup">
+    Setup
   </a>
-<nav aria-label="PowerShell permissions" class="md-nav">
+<nav aria-label="Setup" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#set-policy">
-    Set policy
+<a class="md-nav__link" href="#new-azure-application">
+    New Azure application
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#verify-policy">
-    Verify policy
+<a class="md-nav__link" href="#password-safe-azure-ad-configuration">
+    Password Safe Azure AD configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#azure-provisioning-configuration">
+    Azure provisioning configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#azure-login-configuration">
+    Azure login configuration
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-api-permissions">
+    Set API permissions
   </a>
 </li>
 </ul>
@@ -639,91 +555,149 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/BoxedBrain/pws-docs/edit/master/docs/installation/requirements/server.md" title="Edit this page">
+<a class="md-content__button md-icon" href="https://github.com/BoxedBrain/pws-docs/edit/master/docs/configuration/directory_services/azure/index.md" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
-<h1 id="application-server">Application server<a class="headerlink" href="#application-server" title="Permanent link">⚓︎</a></h1>
-<h2 id="server-configuration">Server configuration<a class="headerlink" href="#server-configuration" title="Permanent link">⚓︎</a></h2>
-<p>The business logic is managed by the application server. The load is determined by both the number of users and also the number of server requests. To ensure optimal operation, we recommend that the following hardware resources are made available:</p>
-<ul>
-<li>At least Windows Server 2012 R2 (current patch level is mandatory!)</li>
-<li>At least 2 x CPU</li>
-<li>Min. 8 GB RAM</li>
-<li>Min. 40 GB hard disk space</li>
-<li>.Net library 4.8.0 or newer</li>
-<li>Firewall release</li>
-<li>Windows Management Framework 5.0 must be installed!</li>
-</ul>
-<div class="admonition danger">
-<p class="admonition-title">Be aware</p>
-<p>If you are using Windows Server 2012 R2, the server requires the latest patch level (SSL3, TLS) to operate securely!</p>
+<h1 id="azure-active-directory-services">Azure Active Directory Services<a class="headerlink" href="#azure-active-directory-services" title="Permanent link">⚓︎</a></h1>
+<p>More and more companies use cloud services. Therefore, also the management of users is outsourced. Instead of a classic Active Directory via LDAP, an Azure AD is used more often. Password Safe integrates the possibility to bring in users and roles from Azure. To use users and roles from multiple Azure ADs, you can create multiple profiles.</p>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">⚓︎</a></h2>
+<h3 id="differences-to-the-ldap-connection">Differences to the LDAP connection<a class="headerlink" href="#differences-to-the-ldap-connection" title="Permanent link">⚓︎</a></h3>
+<p>The connection to the Azure AD differs in one special point from the connection to a conventional Active Directory. While Password Safe queries the users, groups, and roles actively from the conventional AD, the Azure AD is pushing them automatically to our server. For this a so-called <a href="https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management">SCIM service</a> is used.</p>
+<p>To login to Password Safe, after entering the username a popup opens for the authentication with the entered Microsoft account. Here, a possible configured second factor is also requested. The authentication is handled via the <a href="https://openid.net/connect/">Open ID Connect protocol</a>.</p>
+<h3 id="linking-azure-ad">Linking Azure AD<a class="headerlink" href="#linking-azure-ad" title="Permanent link">⚓︎</a></h3>
+<p>Below you will find instructions on how to connect Azure AD to Password Safe. In the Azure portal, go to the management page of your Azure Active Directory. Use an account with administrative permissions for this. During this, login to Password Safe with an account that has the user right “Display organisational structure module“, “Can manage Azure AD profiles", and “Can create new Azure AD profiles" enabled.</p>
+<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">⚓︎</a></h2>
+<h3 id="new-azure-application">New Azure application<a class="headerlink" href="#new-azure-application" title="Permanent link">⚓︎</a></h3>
+<p>Login to the <a href="https://portal.azure.com/">Azure portal</a> and go to the management page of your Azure Active Directory. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You need an account with administrative permissions</p>
 </div>
-<h2 id="firewall-ports">Firewall / Ports<a class="headerlink" href="#firewall-ports" title="Permanent link">⚓︎</a></h2>
-<p>The application server requires that the following ports are enabled:</p>
 <ul>
-<li>Port 443 HTTPS for connection to the MATESO GmbH license server (outgoing)</li>
-<li>Port 11011 TCP for communication with clients or web server IIS (incoming)</li>
-<li>Port 11014 TCP for the backup service (usually does not need to be unlocked)</li>
-<li>Port 11016 TCP for the Web services (incoming; only when using the WebClient)</li>
-<li>Port 11018 TCP for real-time update (incoming)</li>
-<li>Port 1433 TCP for communication with SQL Server (outgoing)</li>
+<li>Write down your "Tenant ID" shown in the Azure console or by using PowerShell:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nb">Connect-AzureAD</span>
+</code></pre></div>
+<ul>
+<li>Navigate in your Azure AD to "Enterprise applications"</li>
+<li>Add an own application, that is not listed in the Azure Gallery – in our example, we name it "Password Safe"</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>If you are connected from outside your local network (e.g. via VPN), you should ensure that the MTU size is configured to 1500 bytes (1472 bytes + 28 bytes for the header). Otherwise, the packets to be transmitted are fragmented, which can lead to a significant performance loss.</p>
+<p>A key feature of Password Safe is, that it is self-hosted by our customers. However, to be listed in Azure Gallery, a SaaS model is required. Therefore, Password Safe is not available in the Azure Gallery.</p>
 </div>
-<h2 id="required-users">Required users<a class="headerlink" href="#required-users" title="Permanent link">⚓︎</a></h2>
-<p>A user via which the Password Safe server can log in to the SQL server is required for configuration. A user who can execute the Password Safe services is also required. The various configurations are briefly explained here.</p>
-<h3 id="service-user">Service user<a class="headerlink" href="#service-user" title="Permanent link">⚓︎</a></h3>
-<p>The service user runs the Password Safe server service. The following can be configured here:</p>
 <ul>
-<li>AD user: It is specified in the format Domain\username along with its associated password</li>
-<li>Local user: It is specified in the format .\user name along with its associated password</li>
-<li>Local system account: It can be activated via a checkbox - not recommended in production environments!</li>
+<li>When the application was created successfully, you are redirected to it automatically</li>
+<li>Write down the "Application ID"</li>
+<li>In the navigation, click "Users and groups"</li>
+<li>Add the Users and groups that should be available to Password Safe</li>
 </ul>
 <div class="admonition danger">
 <p class="admonition-title">Be aware</p>
-<p>Certificates are generated during installation and usage. Therefore, the service user must be a local administrator or a domain administrator, otherwise it would have no rights to save data in the local server certificate store.</p>
+<p>The import of Azure groups as Password Safe roles is only possible if you have booked the Azure package Azure AD Premium P2!</p>
 </div>
-<h3 id="backup-service-user">Backup service user<a class="headerlink" href="#backup-service-user" title="Permanent link">⚓︎</a></h3>
-<p>In principle, the backup service is run by the service user. In expert mode, however, it may be another user. A backup service user has the same requirements as a service user.</p>
-<h3 id="user-for-the-sql-configuration-instance">User for the SQL configuration instance<a class="headerlink" href="#user-for-the-sql-configuration-instance" title="Permanent link">⚓︎</a></h3>
-<p>The user for the SQL configuration instance logs on to the SQL server to create the Password Safe databases. You can use an AD user or a local SQL user for this purpose. The following options are available:</p>
 <ul>
-<li>Service user: If the checkbox is activated, the stored service user is used. Please note that this can only be configured via the checkbox. It is not possible to manually set up the service user again.</li>
-<li>SQL user: An SQL user may also be used. It is saved on the SQL server according to the configuration.</li>
+<li>Navigate to the "Provisioning" page</li>
+<li>Configure the Provisioning Mode to "Automatic"</li>
 </ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>If the Password Safe server is to be used to create databases, the user needs dbCreator rights. Alternatively, the databases can be created directly by the SQL server. The Password Safe server will manage them. In this case, dbOwner rights are sufficient. See <a href="/Installation/System%20requirements/MSSQL/#permissions">MSSQL requirements</a></p>
+<h3 id="password-safe-azure-ad-configuration">Password Safe Azure AD configuration<a class="headerlink" href="#password-safe-azure-ad-configuration" title="Permanent link">⚓︎</a></h3>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Your Password Safe user need the following permissions:</p>
+<ul>
+<li>Display organisational structure module</li>
+<li>Can manage Azure AD profiles</li>
+<li>Can create new Azure AD profiles</li>
+</ul>
 </div>
-<h4 id="configuration-examples">Configuration examples<a class="headerlink" href="#configuration-examples" title="Permanent link">⚓︎</a></h4>
-<p>Option 1:<br/>
-<strong>A service user</strong> is created in the AD. It will be added as a service user, which can start both the Password Safe server service and the backup service. This user requires rights to start services. This user is then used for the SQL configuration instance (by activating the check box).</p>
-<p>Option 2:<br/>
-<strong>A local user</strong> is used as a service user. Specify a local SQL user, secured with a password, as a user for the SQL configuration instance. This could be the default sa user, for example.</p>
+<ul>
+<li>Navigate to the module "Organisational structure"</li>
+<li>In the toolbar, click on “Manage profiles" in the category “Azure AD"</li>
+<li>Create the profile with your information</li>
+<li>Insert the <code>Tenant ID</code> and the <code>Application ID</code></li>
+<li>As soon as the profile has been saved, a popup opens for generating a token</li>
+<li>Choose a desired expiration date (max. 10 years) and click "Generate token"</li>
+<li>Write down the values of the fields "Tenant URL" and "Secret Token"</li>
+</ul>
+<h3 id="azure-provisioning-configuration">Azure provisioning configuration<a class="headerlink" href="#azure-provisioning-configuration" title="Permanent link">⚓︎</a></h3>
+<p>Fill the fields “Tenant URL" and “Secret Token" with the information provided by Password Safe
+Click “Test Connection"
+When the test has been successful, click on “Save" at the top of the page
+Back on the “Provisioning" page, click “Start provisioning“
+In the settings of the provisioning, check if “Provisioning Status“ is set to “On"
+All allocated users and groups are created in Password Safe now</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Azure´s default provisioning interval is 40 Minutes. So it may some time until the users and roles are shown in Password Safe.</p>
+</div>
 <div class="admonition danger">
 <p class="admonition-title">Be aware</p>
-<p>It is not possible to combine local system and service users for the SQL configuration instance!</p>
+<p>Please note that Azure establishes the connection to Password Safe. For this, the client URL must be accessible from an external network / provisioning agent and any used SSL certificate must be valid!
+If the users are not created in Password Safe, consult the Azure Enterprise Application Provisioning log for more information.</p>
 </div>
-<h2 id="powershell-permissions">PowerShell permissions<a class="headerlink" href="#powershell-permissions" title="Permanent link">⚓︎</a></h2>
-<p>In Password Safe V8, Windows PowerShell scripts are used in several places. These are required, for example, to use the certificate-protected server key or to create the server certificate. Password Reset also uses this functionality. It is therefore absolutely necessary that the Windows security policy allows PowerShell scripts to be executed.</p>
-<h3 id="set-policy">Set policy<a class="headerlink" href="#set-policy" title="Permanent link">⚓︎</a></h3>
-<ol>
-<li>Open the PowerShell console.  </li>
-<li>Enter <code>Set-ExecutionPolicy RemoteSigned</code> and confirm.</li>
-</ol>
-<h3 id="verify-policy">Verify policy<a class="headerlink" href="#verify-policy" title="Permanent link">⚓︎</a></h3>
-<p>The changed policy can be verified via <code>Get-ExecutionPolicy -list</code>.</p>
+<h3 id="azure-login-configuration">Azure login configuration<a class="headerlink" href="#azure-login-configuration" title="Permanent link">⚓︎</a></h3>
+<p>To enable the Azure login for your users, a few more steps are required:</p>
+<ul>
+<li>Navigate to the Overview page of your Azure AD</li>
+<li>Navigate to “App registrations“</li>
+<li>If no application is displayed, click “All applications"</li>
+<li>Click on “MATESO Password Safe" and navigate to “Authentication“</li>
+<li>Click on “Add a platform“, select “Mobile and desktop applications“ and configure the required URIs:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">Client</th>
+<th align="center">URI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">WebClient</td>
+<td align="center">https://<code>WEBCLIENT_URL</code>/authentication/login-via-oidc</td>
+</tr>
+<tr>
+<td align="center">FullClient &amp; SSO Agent</td>
+<td align="center">https://login.microsoftonline.com/common/oauth2/nativeclient</td>
+</tr>
+<tr>
+<td align="center">iOS &amp; Android</td>
+<td align="center">psrmobile://auth</td>
+</tr>
+<tr>
+<td align="center">Google Chrome Extension</td>
+<td align="center">https://bpjfchmapbmjeklgmlkabfepflgfckip.chromiumapp.org</td>
+</tr>
+<tr>
+<td align="center">Microsoft Edge Extension</td>
+<td align="center">https://ahdfobpkkckhdhbmnpjehdkepaddfhek.chromiumapp.org</td>
+</tr>
+<tr>
+<td align="center">Firefox Extension</td>
+<td align="center">https://28c91153e2d5b36394cfb1543c897e447d0f1017.extensions.allizom.org/</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition danger">
+<p class="admonition-title">Be aware</p>
+<p>In order to use Azure login with the desktop client, <a href="https://developer.microsoft.com/de-de/microsoft-edge/webview2/#download-section">WebView2</a> from Microsoft must be installed on the client device.</p>
+</div>
+<h3 id="set-api-permissions">Set API permissions<a class="headerlink" href="#set-api-permissions" title="Permanent link">⚓︎</a></h3>
+<p>Finally, the API permissions for the Azure API have to be set, so the login to Password Safe can be performed successfully.</p>
+<p>Navigate to “API permissions" and click “Add a permission“
+Select “Microsoft Graph" and then “Delegated permissions"
+Set the checkboxes for “openid" and “profile" just under “OpenId permissions"
+Click on “Add permissions"
+Click on “Grant admin consent for YOUR_AD_NAME"</p>
 <hr/>
 <div class="md-source-file">
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-08-03T17:05:15+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-08-03</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-08-10T14:27:24+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-08-10</span>
 <br/>
         Created:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-08-03T17:05:15+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-08-03</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-08-10T14:27:24+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-08-10</span>
 </small>
 </div>
 </article>
@@ -737,7 +711,7 @@
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Installation" class="md-footer__link md-footer__link--prev" href="../../" rel="prev">
+<a aria-label="Previous: Safari" class="md-footer__link md-footer__link--prev" href="../../../installation/browser/safari/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -746,17 +720,17 @@
 <span class="md-footer__direction">
                 Previous
               </span>
-              Installation
+              Safari
             </div>
 </div>
 </a>
-<a aria-label="Next: MSSQL server" class="md-footer__link md-footer__link--next" href="../mssql/" rel="next">
+<a aria-label="Next: Azure Active Directory Services FAQ" class="md-footer__link md-footer__link--next" href="faq/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Next
               </span>
-              MSSQL server
+              Azure Active Directory Services FAQ
             </div>
 </div>
 <div class="md-footer__button md-icon">

@@ -565,10 +565,10 @@
 <p>The connection to the Azure AD differs in one special point from the connection to a conventional Active Directory. While Password Safe queries the users, groups, and roles actively from the conventional AD, the Azure AD is pushing them automatically to our server. For this a so-called <a href="https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management">SCIM service</a> is used.</p>
 <p>To login to Password Safe, after entering the username a popup opens for the authentication with the entered Microsoft account. Here, a possible configured second factor is also requested. The authentication is handled via the <a href="https://openid.net/connect/">Open ID Connect protocol</a>.</p>
 <h3 id="linking-azure-ad">Linking Azure AD<a class="headerlink" href="#linking-azure-ad" title="Permanent link">⚓︎</a></h3>
-<p>Below you will find instructions on how to connect Azure AD to Password Safe. In the Azure portal, go to the management page of your Azure Active Directory. Use an account with administrative permissions for this. During this, login to Password Safe with an account that has the user right “Display organisational structure module“, “Can manage Azure AD profiles", and “Can create new Azure AD profiles" enabled.</p>
+<p>Below you will find instructions on how to connect Azure AD to Password Safe. In the Azure portal, go to the management page of your Azure Active Directory. Use an account with administrative permissions for this. During this, login to Password Safe with an account that has the user right "Display organisational structure module", "Can manage Azure AD profiles", and "Can create new Azure AD profiles" enabled.</p>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">⚓︎</a></h2>
 <h3 id="new-azure-application">New Azure application<a class="headerlink" href="#new-azure-application" title="Permanent link">⚓︎</a></h3>
-<p>Login to the <a href="https://portal.azure.com/">Azure portal</a> and go to the management page of your Azure Active Directory. </p>
+<p>Login to the <a href="https://portal.azure.com/">Azure portal</a> and go to the management page of your Azure Active Directory.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>You need an account with administrative permissions</p>
@@ -612,7 +612,7 @@
 </div>
 <ul>
 <li>Navigate to the module "Organisational structure"</li>
-<li>In the toolbar, click on “Manage profiles" in the category “Azure AD"</li>
+<li>In the toolbar, click on "Manage profiles" in the category "Azure AD"</li>
 <li>Create the profile with your information</li>
 <li>Insert the <code>Tenant ID</code> and the <code>Application ID</code></li>
 <li>As soon as the profile has been saved, a popup opens for generating a token</li>
@@ -620,11 +620,11 @@
 <li>Write down the values of the fields "Tenant URL" and "Secret Token"</li>
 </ul>
 <h3 id="azure-provisioning-configuration">Azure provisioning configuration<a class="headerlink" href="#azure-provisioning-configuration" title="Permanent link">⚓︎</a></h3>
-<p>Fill the fields “Tenant URL" and “Secret Token" with the information provided by Password Safe
-Click “Test Connection"
-When the test has been successful, click on “Save" at the top of the page
-Back on the “Provisioning" page, click “Start provisioning“
-In the settings of the provisioning, check if “Provisioning Status“ is set to “On"
+<p>Fill the fields "Tenant URL" and "Secret Token" with the information provided by Password Safe
+Click "Test Connection"
+When the test has been successful, click on "Save" at the top of the page
+Back on the "Provisioning" page, click "Start provisioning"
+In the settings of the provisioning, check if "Provisioning Status" is set to "On"
 All allocated users and groups are created in Password Safe now</p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
@@ -639,10 +639,10 @@ If the users are not created in Password Safe, consult the Azure Enterprise Appl
 <p>To enable the Azure login for your users, a few more steps are required:</p>
 <ul>
 <li>Navigate to the Overview page of your Azure AD</li>
-<li>Navigate to “App registrations“</li>
-<li>If no application is displayed, click “All applications"</li>
-<li>Click on “MATESO Password Safe" and navigate to “Authentication“</li>
-<li>Click on “Add a platform“, select “Mobile and desktop applications“ and configure the required URIs:</li>
+<li>Navigate to "App registrations"</li>
+<li>If no application is displayed, click "All applications"</li>
+<li>Click on "MATESO Password Safe" and navigate to "Authentication"</li>
+<li>Click on "Add a platform", select "Mobile and desktop applications" and configure the required URIs:</li>
 </ul>
 <table>
 <thead>
@@ -654,27 +654,27 @@ If the users are not created in Password Safe, consult the Azure Enterprise Appl
 <tbody>
 <tr>
 <td align="center">WebClient</td>
-<td align="center">https://<code>WEBCLIENT_URL</code>/authentication/login-via-oidc</td>
+<td align="center"><code>https://</code>WEBCLIENT_URL<code>/authentication/login-via-oidc</code></td>
 </tr>
 <tr>
 <td align="center">FullClient &amp; SSO Agent</td>
-<td align="center">https://login.microsoftonline.com/common/oauth2/nativeclient</td>
+<td align="center"><code>https://login.microsoftonline.com/common/oauth2/nativeclient</code></td>
 </tr>
 <tr>
 <td align="center">iOS &amp; Android</td>
-<td align="center">psrmobile://auth</td>
+<td align="center"><code>psrmobile://auth</code></td>
 </tr>
 <tr>
 <td align="center">Google Chrome Extension</td>
-<td align="center">https://bpjfchmapbmjeklgmlkabfepflgfckip.chromiumapp.org</td>
+<td align="center"><code>https://bpjfchmapbmjeklgmlkabfepflgfckip.chromiumapp.org</code></td>
 </tr>
 <tr>
 <td align="center">Microsoft Edge Extension</td>
-<td align="center">https://ahdfobpkkckhdhbmnpjehdkepaddfhek.chromiumapp.org</td>
+<td align="center"><code>https://ahdfobpkkckhdhbmnpjehdkepaddfhek.chromiumapp.org</code></td>
 </tr>
 <tr>
 <td align="center">Firefox Extension</td>
-<td align="center">https://28c91153e2d5b36394cfb1543c897e447d0f1017.extensions.allizom.org/</td>
+<td align="center"><code>https://28c91153e2d5b36394cfb1543c897e447d0f1017.extensions.allizom.org/</code></td>
 </tr>
 </tbody>
 </table>
@@ -684,17 +684,17 @@ If the users are not created in Password Safe, consult the Azure Enterprise Appl
 </div>
 <h3 id="set-api-permissions">Set API permissions<a class="headerlink" href="#set-api-permissions" title="Permanent link">⚓︎</a></h3>
 <p>Finally, the API permissions for the Azure API have to be set, so the login to Password Safe can be performed successfully.</p>
-<p>Navigate to “API permissions" and click “Add a permission“
-Select “Microsoft Graph" and then “Delegated permissions"
-Set the checkboxes for “openid" and “profile" just under “OpenId permissions"
-Click on “Add permissions"
-Click on “Grant admin consent for YOUR_AD_NAME"</p>
+<p>Navigate to "API permissions" and click "Add a permission"
+Select "Microsoft Graph" and then "Delegated permissions"
+Set the checkboxes for "openid" and "profile" just under "OpenId permissions"
+Click on "Add permissions"
+Click on "Grant admin consent for YOUR_AD_NAME"</p>
 <hr/>
 <div class="md-source-file">
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-08-10T14:27:24+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-08-10</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-08-10T18:18:47+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-08-10</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-08-10T14:27:24+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-08-10</span>

@@ -566,31 +566,31 @@
 <h2 id="does-password-safe-azure-ad-connection-support-nested-groups">Does Password Safe Azure AD connection support nested groups?<a class="headerlink" href="#does-password-safe-azure-ad-connection-support-nested-groups" title="Permanent link">⚓︎</a></h2>
 <p>Due to Azure based technical limitations, Password Safe does not support nested groups.</p>
 <h2 id="does-azure-ad-work-on-servers-that-are-only-available-internally">Does Azure AD work on servers that are only available internally?<a class="headerlink" href="#does-azure-ad-work-on-servers-that-are-only-available-internally" title="Permanent link">⚓︎</a></h2>
-<p>An integration on servers, that are not accessible from external sources, the integration of Azure AD is also possible. For this, you can use the <a href="https://docs.microsoft.com/en-us/azure/active-directory/app-provisioning/on-premises-scim-provisioning#on-premises-app-provisioning-to-scim-enabled-apps">Provisioning Agent</a>. This can be installed on all or only one application server. It must be noted that the IP or DNS name of the “Tenent URL" specified in the subsequently created enterprise application is present in the alternative application names in the server certificate.
-Tip: “https://127.0.0.1:11015/scim" can also be specified as the “Tenent URL", in which case 127.0.0.1 must again be present in the alternative application names in the server certificate.</p>
+<p>An integration on servers, that are not accessible from external sources, the integration of Azure AD is also possible. For this, you can use the <a href="https://docs.microsoft.com/en-us/azure/active-directory/app-provisioning/on-premises-scim-provisioning#on-premises-app-provisioning-to-scim-enabled-apps">Provisioning Agent</a>. This can be installed on all or only one application server. It must be noted that the IP or DNS name of the "Tenent URL" specified in the subsequently created enterprise application is present in the alternative application names in the server certificate.
+Tip: <code>https://127.0.0.1:11015/scim</code> can also be specified as the "Tenent URL", in which case 127.0.0.1 must again be present in the alternative application names in the server certificate.</p>
 <ul>
 <li>Download the Provisioning Agent from <a href="https://aka.ms/OnPremProvisioningAgent">here</a></li>
 <li>Install the Provisioning Agent on the server with the Password Safe Server</li>
-<li>Start “AAD Connect Provisioning Agent Wizard"</li>
-<li>Select “On-premises application provisioning Azure AD to application", click next</li>
-<li>Click “Authenticate" and authenticate with a user.This user should be a Hybrid administrator or a global administrator.</li>
-<li>Click “Confirm"</li>
+<li>Start "AAD Connect Provisioning Agent Wizard"</li>
+<li>Select "On-premises application provisioning Azure AD to application", click next</li>
+<li>Click "Authenticate" and authenticate with a user.This user should be a Hybrid administrator or a global administrator.</li>
+<li>Click "Confirm"</li>
 <li>Wait for the application to finish the registration in Azure</li>
 <li>Switch to the Azure Portal</li>
-<li>Click “Azure Active Directory"</li>
-<li>Click “Enterprise applications"</li>
-<li>Click “New application"</li>
-<li>Search for “On-premises SCIM app"</li>
-<li>Click “On-premises SCIM app"</li>
+<li>Click "Azure Active Directory"</li>
+<li>Click "Enterprise applications"</li>
+<li>Click "New application"</li>
+<li>Search for "On-premises SCIM app"</li>
+<li>Click "On-premises SCIM app"</li>
 <li>Adjust the name</li>
-<li>Click “Create"</li>
+<li>Click "Create"</li>
 <li>Wait for the operation to end</li>
-<li>Click the created application in the overview of “Enterprise applications"</li>
-<li>Click “Provisioning"</li>
-<li>Click “Get started"</li>
-<li>Set provisioning mode “Automatic"</li>
-<li>Unhide “On-Premises Connectivity"</li>
-<li>Assign the just installed agent to this application by selecting it and click “Assign Agent(s)"</li>
+<li>Click the created application in the overview of "Enterprise applications"</li>
+<li>Click "Provisioning"</li>
+<li>Click "Get started"</li>
+<li>Set provisioning mode "Automatic"</li>
+<li>Unhide "On-Premises Connectivity"</li>
+<li>Assign the just installed agent to this application by selecting it and click "Assign Agent(s)"</li>
 <li>It takes about 20 minutes until the agent is correctly connected to your application and you can proceed.</li>
 </ul>
 <hr/>
@@ -598,7 +598,7 @@ Tip: “https://127.0.0.1:11015/scim" can also be specified as the “Tenent URL
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-08-10T14:27:24+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-08-10</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-08-10T18:18:47+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-08-10</span>
 <br/>
         Created:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-08-10T14:27:24+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-08-10</span>

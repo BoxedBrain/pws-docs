@@ -31,15 +31,10 @@ jobs:
 
       - name: Find String
         id: find-string
-        uses: nguyenvanuyn96/str-find-action@master
-        with:
-          find: "MATESO"
-          include: ${{ steps.changed-files.outputs.all_changed_files }}
-
-      - name: List all matches
         run: |
-          echo "${{ steps.find-string.outputs.resultArray }} matching files found!"
-          echo ${{ steps.find-string.outputs.resultArray }}
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            (grep "MATESO" $file || exit 0 && exit 123;)
+          done
 
 #      - name: Check for "MATESO"
 #        run: grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md,contributors.md} -rnw ${GITHUB_WORKSPACE} -e 'MATESO'

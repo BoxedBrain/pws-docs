@@ -13,12 +13,29 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Show dir
         run: echo ${GITHUB_WORKSPACE} && ls -alh
 
-      - name: Check for "MATESO"
-        run: grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md,contributors.md} -rnw ${GITHUB_WORKSPACE} -e 'MATESO'
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v25
 
-      - name: Check for "Password Safe"
-        run: grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md} -rnw ${GITHUB_WORKSPACE} -e 'Password Safe'
+      - name: List all changed files
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "$file was changed"
+          done
+
+      - name: Find String
+        uses: nguyenvanuyn96/str-find-action@master
+        with:
+          find: "MATESO"
+
+#      - name: Check for "MATESO"
+#        run: grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md,contributors.md} -rnw ${GITHUB_WORKSPACE} -e 'MATESO'
+#
+#      - name: Check for "Password Safe"
+#        run: grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md} -rnw ${GITHUB_WORKSPACE} -e 'Password Safe'

@@ -4,13 +4,13 @@
 
 Users with the required permissions to issue the releases receive access to the current state of the existing seals at any time via the seal overview. The overview is accessible via the ribbon as well as the icon in the password field of the reading pane.
 
-![picture button seal](/assets/en/permission/predefined_rights/seals/seal_overview/seal_overview_1.png){ loading=lazy }
+![picture button seal](/assets/en/permission/protective_mechanisms/seals/seal_overview/seal_overview_1.png){ loading=lazy }
 
 ## The four states of a seal
 
 The seal overview provides an overview of all users who have access to the sealed data set. This is also the case when they receive the seal on the membership of a role. Functions for editing and removing existing seals are also available. In addition, the current state of the seal is displayed in the form of a release matrix. There are a total of **four states**, in which a seal can be:
 
-![picture seal overview](/assets/en/permission/predefined_rights/seals/seal_overview/seal_overview_2.png){ loading=lazy }
+![picture seal overview](/assets/en/permission/protective_mechanisms/seals/seal_overview/seal_overview_2.png){ loading=lazy }
 
 ## 1. Sealed
 

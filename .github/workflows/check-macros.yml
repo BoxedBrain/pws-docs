@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Check for "MATESO"
-        run: grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md,contributors.md} -rnw ${GITHUB_WORKSPACE} -e "MATESO"
+        run: grep "--include=\*.{md,txt} --exclude={README.md,index.md,client.md,contributors.md} -rnw ${GITHUB_WORKSPACE} -e 'MATESO'"
 
       - name: Check for "Password Safe"
-        run: grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md} -rnw ${GITHUB_WORKSPACE} -e "Password Safe"
+        run: grep "--include=\*.{md,txt} --exclude={README.md,index.md,client.md} -rnw ${GITHUB_WORKSPACE} -e 'Password Safe'"

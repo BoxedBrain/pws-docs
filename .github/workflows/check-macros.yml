@@ -14,6 +14,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Show dir
+        run: echo ${GITHUB_WORKSPACE} && ls -alh
+
       - name: Check for "MATESO"
         run: grep --include=\*.{md,txt} --exclude={README.md,index.md,client.md,contributors.md} -rnw ${GITHUB_WORKSPACE} -e 'MATESO'
 

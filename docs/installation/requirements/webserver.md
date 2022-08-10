@@ -7,9 +7,9 @@ In principle, the {{about.product}} WebClient can be installed on all current we
 
 The WebClient requires the following ports:
 
-- Port 443 HTTPS zum Ansprechen des Webservers vom Client (eingehend)
-- Port 11016 zur Kommunikation mit dem Anwendungsserver (ausgehend)
-- Port 11018 für die Echtzeitaktualisierung (ausgehend)
+- Port 443 HTTPS to address the web server from the client (inbound).
+- Port 11016 for communication with the application server (outgoing).
+- Port 11018 for real-time updating (outgoing).
 
 !!! danger "Important!"
     The connection between the browser and the web server must be protected by an SSL certificate. It is strongly recommended that you purchase a certificate for this purpose from a service provider e.g.: Thawte. If you have not purchased an official certificate, please ensure that your certificate is sufficiently trusted. Otherwise, the certificate will be displayed in red and shown as insecure in the browser.

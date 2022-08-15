@@ -3,5 +3,5 @@ nav:
     - requirements
     - server.md
     - client.md
-    - webclient.md
+    - webclient
     - browser

@@ -2,7 +2,7 @@
 
 ## Reusing permissions
 
-Password Safe generally differentiates between multiple methods for setting permissions:
+{{about.product}} generally differentiates between multiple methods for setting permissions:
 
 1. Manual setting of permissions
 2. Inheritance of permissions within organizational structures

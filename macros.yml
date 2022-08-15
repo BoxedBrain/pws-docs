@@ -21,3 +21,4 @@ url:
   webview2: https://developer.microsoft.com/de-de/microsoft-edge/webview2/#download-section
   azure_provisioning_agent_info: https://docs.microsoft.com/en-us/azure/active-directory/app-provisioning/on-premises-scim-provisioning#on-premises-app-provisioning-to-scim-enabled-apps
   azure_provisioning_agent_download: https://aka.ms/OnPremProvisioningAgent
+  sdk: https://help.passwordsafe.de/api/v8/

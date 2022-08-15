@@ -65,7 +65,7 @@ In the option **overwrite permissions**, the existing permissions are removed an
 
 ![PLACEHOLDER](/assets/en/permission/multiple_editing-of-permissions/multiple-editing-of-permissions-6.png){ loading=lazy }
 
-The filter itself defines the selection criteria for the records to be edited. The currently configured filter will be used as default. The records that will be affected by the changes are also not displayed in this view. Only the number of records is displayed. In the following example, 9 passwords are being edited to add the read permission the role “Sales”.
+The filter itself defines the selection criteria for the records to be edited. The currently configured filter will be used as default. The records that will be affected by the changes are also not displayed in this view. Only the number of records is displayed. In the following example, 9 passwords are being edited to add the read permission the role "Sales".
 
 ![PLACEHOLDER](/assets/en/permission/multiple_editing-of-permissions/multiple-editing-of-permissions-7.png){ loading=lazy }
 

@@ -102,7 +102,7 @@ hide:
         psrApi.SessionExpired += async (sender, e) =>
         {
             Console.WriteLine("Session has expired");
-            //For example, you could relogin here...
+            //For example, you could re-login here...
         };
 
         Console.WriteLine($"Logged in; Session expiring at: { psrApi.SessionExpirationUtc?.ToLocalTime() }");

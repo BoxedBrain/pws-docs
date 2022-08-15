@@ -40,7 +40,7 @@ If you do not log in to the system in advance, it is not possible to use the API
     await psrApi.AuthenticationManager.Login('database', 'username', 'password');
     ```
 
-All methods for the API can then be used. Checkout the [examples](examples)! :rocket:
+All methods for the API can then be used. Checkout the [examples](examples/login/)! :rocket:
 
 ## Technical documentation
 

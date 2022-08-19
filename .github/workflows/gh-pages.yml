@@ -27,12 +27,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: pip install --upgrade pip \
-             mkdocs-material \
-             mkdocs-git-revision-date-localized-plugin \
-             mkdocs-awesome-pages-plugin \
-             mkdocs-macros-plugin \
-             mkdocs-glightbox
+      - run: pip install --no-cache-dir --upgrade -r requirements.txt
 
       - run: mkdocs build
 

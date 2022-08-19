@@ -31,11 +31,11 @@ A new tab will be opened in the ribbon above the "Permissions" button in which t
 
 ## Adding permissions
 
-To add a permission, a user or role is selected first in the ribbon under **Search and add** or **Search**. The permissions are then selected as usual in the ribbon. The :octicons-plus-circle-16: symbol indicates that permissions will be added. In the following example, Mr. Steiner receives read permission to all selected records. In contrast, Mr. Brewery receives all permissions.
+To add a permission, a user or role is selected first in the ribbon under **Search and add** or **Search**. The permissions are then selected as usual in the ribbon. The :material-plus-circle-outline:{ .permission-add } symbol indicates that permissions will be added. In the following example, Mr. Steiner receives read permission to all selected records. In contrast, Mr. Brewery receives all permissions.
 
 ## Reducing permissions / removing users and roles from the permissions
 
-If you want to remove permissions, it is also necessary to add the user or the desired role to be edited. Clicking on **Reduce permissions** now means that permissions will be removed. This is indicated by the :material-minus-circle-outline: symbol. The selected permissions will be removed.
+If you want to remove permissions, it is also necessary to add the user or the desired role to be edited. Clicking on **Reduce permissions** now means that permissions will be removed. This is indicated by the :material-minus-circle-outline:{ .permission-reduce } symbol. The selected permissions will be removed.
 
 !!! note
     If the **read** permission is to be removed for a user or role, the user will be completely removed from the permissions.

@@ -2,7 +2,7 @@
 
 ## What are applications?
 
-Applications can be used to configure automated logins to various systems. Especially when combined with various protective mechanisms, the company thus benefits in terms of security because complex passwords are automated and entered in the login masks in concealed form for the user. Various types are available, such as Remote Desktop (**RDP**), Secure Shell (**SSH**), general applications (**SSO**) and web applications. The Single Sign On Engine offers countless configuration options to enable automatic logon to almost any kind of software.
+Applications can be used to configure automated logins to various systems. Especially when combined with various protective mechanisms, the company benefits in terms of security because complex passwords are automated and entered in the login masks in concealed form. Various types are available, such as Remote Desktop (**RDP**), Secure Shell (**SSH**), general applications (**SSO**) and web applications. The Single Sign On Engine offers countless configuration options to enable automatic logon to almost any kind of software.
 
 ![picture applications module](/assets/en/client_modules/applications/applications_1.png){ loading=lazy }
 

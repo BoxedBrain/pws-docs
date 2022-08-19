@@ -2,11 +2,11 @@
 
 ## Which applications need to be learned?
 
-As already indicated in the previous section, RDP and SSH applications are completely embedded in Password Safe. These applications thus do not need to be specially learned. All other applications in Windows need to be learned once.
+As already indicated in the previous section, RDP and SSH applications are completely embedded in {{about.product}}. These applications thus do not need to be specially learned. All other applications in Windows need to be learned once.
 
 ## What does learning mean?
 
-The record contains the user name and password. Learning involves defining the steps required. The result is equivalent to a script that defines where precisely the login data should be entered. In Password Safe, the completed instructions themselves are also known as an "application".
+The record contains the user name and password. Learning involves defining the steps required. The result is equivalent to a script that defines where precisely the login data should be entered. In {{about.product}}, the completed instructions themselves are also known as an "application".
 
 ## Relevant rights
 

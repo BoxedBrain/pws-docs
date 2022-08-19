@@ -21,8 +21,8 @@ The parameter in the **Field name** category can directly address the fields, me
 Example
 In this example, the following start parameter have been defined for the Salamander application:
 
-- L (for folder path in the left column)
-- R (for folder path in the right column)
+- **L** (for folder path in the left column)
+- **R** (for folder path in the right column)
 
 For both parameter, the password fields with the names "Left Path" and "Right Path" are then transferred in each case.
 
@@ -34,11 +34,11 @@ The application is then linked with the following password:
 
 When the Salamander application is started, the placeholder is replaced by the field names. Therefore, instead of
 
-**-L {field:Left Path} -R {field:Right Path}**
+-**L {field:Left Path} -R {field:Right Path}**
 
 the following start parameter are transferred:
 
-**-L "C:\Projekte\" -R "C:\Ablage\Projekte"**
+-**L "C:\Projekte\" -R "C:\Ablage\Projekte"**
 
 ## Placeholder for fields
 
@@ -57,7 +57,7 @@ Fields can be added via certain placeholders based on their type or their name. 
 |Multiline text|​{Memo}|
 |Multiline password text|​{PasswordMemo}|
 |Integer|{Int}|
-|Floating-point number|	{Decimal}|
+|Floating-point number|{Decimal}|
 |User name|{UserName}|
 |​IP address|{Ip}|
 |Enter field name|{field:name}|

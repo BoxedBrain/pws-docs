@@ -106,7 +106,7 @@ A brief overview of the actions that will be carried out with the added configur
 ## Confirmation prompt
 
 An important aspect of {{about.product}} V8 is the **security** of passwords on systems. In the **Discovery Service**, a **security measures** is thus triggered at the **last step** for creating **Password Resets**.
-If the option **Execute Password Resets immediately after they are created** is used in the configuration, the **selected passwords** are immediately changed after clicking on **Finish**. 
+If the option **Execute Password Resets immediately after they are created** is used in the configuration, the **selected passwords** are immediately changed after clicking on **Finish**.
 
 !!! danger "Be Aware"
     **If you are not paying careful attention, this could have inconvenient consequences.**

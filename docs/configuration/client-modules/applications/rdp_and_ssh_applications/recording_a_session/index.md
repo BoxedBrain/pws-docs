@@ -12,7 +12,7 @@ The following options are required to manage sessions for an application.
 
 ### User right
 
--Can manage recordings for an application
+- Can manage recordings for an application
 
 !!! hint
     Please note that session recording uses disk space in the database. Although the way the recordings are saved is efficient in terms of resources, the required amount of disk space varies greatly depending on the content. The more that is done during the recorded session, the higher the disk space usage.
@@ -48,8 +48,8 @@ Once a session recording has been selected, a new tab will open in which you can
 
 When are indicators set?
 
--Mouse click
--Keyboard command
+- Mouse click
+- Keyboard command
 
 ## Automatic deletion of old recordings
 

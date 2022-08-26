@@ -18,7 +18,7 @@ For example, if you have created an RDP application, you can start it directly f
 
 {{about.product}} now tries to log in to the target system with the available information. All missing information will be requested directly after the connection is established. It is therefore also possible to enter the IP address and/or password after starting the application.
 
-![picture application embedded](/assets/en/client_modules/applications/learning_the_applications/rdp_and_ssh_applications_3.png){ loading=lazy }
+![picture application embedded](/assets/en/client_modules/applications/rdp_and_ssh_applications/rdp_and_ssh_applications_3.png){ loading=lazy }
 
 ## Login via SSH certificates
 
